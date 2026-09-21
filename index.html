@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Letters for You ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- COVER -->
+
+    <section class="cover" id="home">
+
+        <p class="small-title">A COLLECTION OF LETTERS</p>
+
+        <h1>
+            Letters<br>
+            I Never Knew<br>
+            How To Say
+        </h1>
+
+        <p class="dedication">
+            written quietly,<br>
+            but meant entirely for you.
+        </p>
+
+        <button onclick="openLetters()">
+            Open the book ♡
+        </button>
+
+    </section>
+
+
+    <!-- LETTER COLLECTION -->
+
+    <section class="collection" id="letters">
+
+        <p class="small-title">THE COLLECTION</p>
+
+        <h2>For you, one letter at a time.</h2>
+
+        <div class="letters-grid">
+
+            <button onclick="openLetter(1)">
+                <span>01</span>
+                <strong>Before I Knew You</strong>
+                <small>how it all began</small>
+            </button>
+
+            <button onclick="openLetter(2)">
+                <span>02</span>
+                <strong>The Way You Make Me Feel</strong>
+                <small>things I cannot explain</small>
+            </button>
+
+            <button onclick="openLetter(3)">
+                <span>03</span>
+                <strong>Things I Never Say</strong>
+                <small>but always think about</small>
+            </button>
+
+            <button onclick="openLetter(4)">
+                <span>04</span>
+                <strong>On Ordinary Days</strong>
+                <small>the little things</small>
+            </button>
+
+            <button onclick="openLetter(5)">
+                <span>05</span>
+                <strong>I Remember This</strong>
+                <small>a memory I keep</small>
+            </button>
+
+            <button onclick="openLetter(6)">
+                <span>06</span>
+                <strong>If You Could Read My Mind</strong>
+                <small>you would understand</small>
+            </button>
+
+            <button onclick="openLetter(7)">
+                <span>07</span>
+                <strong>For Your Difficult Days</strong>
+                <small>when things feel heavy</small>
+            </button>
+
+            <button onclick="openLetter(8)">
+                <span>08</span>
+                <strong>Thank You</strong>
+                <small>for being here</small>
+            </button>
+
+            <button onclick="openLetter(9)">
+                <span>09</span>
+                <strong>The Things I Love</strong>
+                <small>about you</small>
+            </button>
+
+            <button onclick="openLetter(10)">
+                <span>10</span>
+                <strong>If We Ever Get Lost</strong>
+                <small>remember this</small>
+            </button>
+
+            <button onclick="openLetter(11)">
+                <span>11</span>
+                <strong>What I Hope For Us</strong>
+                <small>the things I quietly wish</small>
+            </button>
+
+            <button onclick="openLetter(12)">
+                <span>12</span>
+                <strong>One More Thing</strong>
+                <small>before you close this book</small>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- LETTER READER -->
+
+    <section class="reader" id="reader">
+
+        <button class="back" onclick="closeLetter()">
+            ← back to collection
+        </button>
+
+        <div class="paper">
+
+            <p class="letter-number" id="letterNumber">
+                LETTER 01
+            </p>
+
+            <h2 id="letterTitle">
+                Before I Knew You
+            </h2>
+
+            <div id="letterContent">
+                <p>
+                    Dear you,
+                </p>
+
+                <p>
+                    This is where your letter will go.
+                </p>
+
+                <p>
+                    You can write as much as you want here.
+                    The website will make it feel like an actual
+                    little letter inside a book.
+                </p>
+
+                <p>
+                    — yours
+                </p>
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousLetter()">← Previous</button>
+            <button onclick="nextLetter()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
