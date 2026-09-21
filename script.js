@@ -1,15 +1,15 @@
-Const letters = {
+const letters = {
 
     1: {
-        Title: “Before I Knew You”,
-        Content: `
+        title: "Before I Knew You",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Write your first letter here.
             Talk about who you were before you met him,
-            And how you never expected someone like him
-            To become important to you.
+            and how you never expected someone like him
+            to become important to you.
             </p>
 
             <p>
@@ -21,14 +21,14 @@ Const letters = {
     },
 
     2: {
-        Title: “The Way You Make Me Feel”,
-        Content: `
+        title: "The Way You Make Me Feel",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Write about the way he makes you feel.
             The comfort, excitement, safety, happiness,
-            Or even the little nervous feelings.
+            or even the little nervous feelings.
             </p>
 
             <p>— yours</p>
@@ -36,13 +36,13 @@ Const letters = {
     },
 
     3: {
-        Title: “Things I Never Say”,
-        Content: `
+        title: "Things I Never Say",
+        content: `
             <p>Dear you,</p>
 
             <p>
             These are the things I think about
-            But sometimes don’t know how to say.
+            but sometimes don't know how to say.
             </p>
 
             <p>— yours</p>
@@ -50,14 +50,14 @@ Const letters = {
     },
 
     4: {
-        Title: “On Ordinary Days”,
-        Content: `
+        title: "On Ordinary Days",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Write about the small things you love.
             The conversations, jokes, messages,
-            Habits, expressions, and ordinary moments.
+            habits, expressions, and ordinary moments.
             </p>
 
             <p>— yours</p>
@@ -65,13 +65,13 @@ Const letters = {
     },
 
     5: {
-        Title: “I Remember This”,
-        Content: `
+        title: "I Remember This",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Write about one specific memory
-            That you never want to forget.
+            that you never want to forget.
             </p>
 
             <p>— yours</p>
@@ -79,14 +79,14 @@ Const letters = {
     },
 
     6: {
-        Title: “If You Could Read My Mind”,
-        Content: `
+        title: "If You Could Read My Mind",
+        content: `
             <p>Dear you,</p>
 
             <p>
             If you could see everything that goes
-            Through my mind about you, this is what
-            You would find.
+            through my mind about you, this is what
+            you would find.
             </p>
 
             <p>— yours</p>
@@ -94,8 +94,8 @@ Const letters = {
     },
 
     7: {
-        Title: “For Your Difficult Days”,
-        Content: `
+        title: "For Your Difficult Days",
+        content: `
             <p>Dear you,</p>
 
             <p>
@@ -108,13 +108,13 @@ Const letters = {
     },
 
     8: {
-        Title: “Thank You”,
-        Content: `
+        title: "Thank You",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Thank you for the things you probably
-            Don’t even realize you do.
+            don't even realize you do.
             </p>
 
             <p>— yours</p>
@@ -122,8 +122,8 @@ Const letters = {
     },
 
     9: {
-        Title: “The Things I Love”,
-        Content: `
+        title: "The Things I Love",
+        content: `
             <p>Dear you,</p>
 
             <p>
@@ -136,14 +136,14 @@ Const letters = {
     },
 
     10: {
-        Title: “If We Ever Get Lost”,
-        Content: `
+        title: "If We Ever Get Lost",
+        content: `
             <p>Dear you,</p>
 
             <p>
             If life ever gets complicated,
             I hope you remember what we were
-            And what we meant to each other.
+            and what we meant to each other.
             </p>
 
             <p>— yours</p>
@@ -151,13 +151,13 @@ Const letters = {
     },
 
     11: {
-        Title: “What I Hope For Us”,
-        Content: `
+        title: "What I Hope For Us",
+        content: `
             <p>Dear you,</p>
 
             <p>
             Here are the things I quietly hope
-            Life gives us.
+            life gives us.
             </p>
 
             <p>— yours</p>
@@ -165,13 +165,13 @@ Const letters = {
     },
 
     12: {
-        Title: “One More Thing”,
-        Content: `
+        title: "One More Thing",
+        content: `
             <p>Dear you,</p>
 
             <p>
             If you remember nothing else from
-            These letters, remember this.
+            these letters, remember this.
             </p>
 
             <p>— yours</p>
@@ -181,77 +181,77 @@ Const letters = {
 };
 
 
-Let currentLetter = 1;
+let currentLetter = 1;
 
 
-Function openLetters() {
+function openLetters() {
 
-    Document.getElementById(“letters”)
+    document.getElementById("letters")
         .scrollIntoView({
-            Behavior: “smooth”
+            behavior: "smooth"
         });
 
 }
 
 
-Function openLetter(number) {
+function openLetter(number) {
 
     currentLetter = number;
 
-    document.getElementById(“letters”)
-        .style.display = “none”;
+    document.getElementById("letters")
+        .style.display = "none";
 
-    Document.getElementById(“home”)
-        .style.display = “none”;
+    document.getElementById("home")
+        .style.display = "none";
 
-    Document.getElementById(“reader”)
-        .classList.add(“active”);
+    document.getElementById("reader")
+        .classList.add("active");
 
     showLetter(number);
 
 }
 
 
-Function showLetter(number) {
+function showLetter(number) {
 
-    Const letter = letters[number];
+    const letter = letters[number];
 
-    Document.getElementById(“letterNumber”)
-        .textContent = “LETTER “ + String(number).padStart(2, “0”);
+    document.getElementById("letterNumber")
+        .textContent = "LETTER " + String(number).padStart(2, "0");
 
-    Document.getElementById(“letterTitle”)
+    document.getElementById("letterTitle")
         .textContent = letter.title;
 
-    Document.getElementById(“letterContent”)
+    document.getElementById("letterContent")
         .innerHTML = letter.content;
 
-    Window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
 }
 
 
-Function closeLetter() {
+function closeLetter() {
 
-    Document.getElementById(“reader”)
-        .classList.remove(“active”);
+    document.getElementById("reader")
+        .classList.remove("active");
 
-    Document.getElementById(“letters”)
-        .style.display = “block”;
+    document.getElementById("letters")
+        .style.display = "block";
 
-    Document.getElementById(“home”)
-        .style.display = “flex”;
+    document.getElementById("home")
+        .style.display = "flex";
 
-    Document.getElementById(“letters”)
+    document.getElementById("letters")
         .scrollIntoView({
-            Behavior: “smooth”
+            behavior: "smooth"
         });
 
 }
 
 
-Function nextLetter() {
+function nextLetter() {
 
-    If (currentLetter < 12) {
+    if (currentLetter < 12) {
         currentLetter++;
         showLetter(currentLetter);
     }
@@ -259,9 +259,9 @@ Function nextLetter() {
 }
 
 
-Function previousLetter() {
+function previousLetter() {
 
-    If (currentLetter > 1) {
+    if (currentLetter > 1) {
         currentLetter--;
         showLetter(currentLetter);
     }
