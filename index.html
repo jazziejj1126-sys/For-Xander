@@ -1,181 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Letters for You ♡</title>
+<title>Letters for You ♡</title>
 
-    <link rel="stylesheet" href="style.css">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f0ea;
+    color: #302923;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* COVER */
+
+.cover {
+    min-height: 100vh;
+    padding: 120px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-title {
+    letter-spacing: 6px;
+    font-size: 11px;
+    color: #918981;
+    margin-bottom: 45px;
+}
+
+.cover h1 {
+    font-size: clamp(48px, 12vw, 90px);
+    line-height: 0.95;
+    font-weight: 400;
+    margin: 0 0 35px;
+}
+
+.dedication {
+    color: #746c65;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.cover button {
+    margin-top: 40px;
+    width: fit-content;
+    padding: 16px 25px;
+    border: 1px solid #302923;
+    background: transparent;
+    color: #302923;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cover button:hover {
+    background: #302923;
+    color: white;
+}
+
+
+/* COLLECTION */
+
+.collection {
+    display: none;
+    padding: 100px 44px;
+}
+
+.collection h2 {
+    font-size: clamp(45px, 10vw, 75px);
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 80px;
+    max-width: 800px;
+}
+
+.letters-grid {
+    max-width: 900px;
+}
+
+.letters-grid button {
+    width: 100%;
+    display: block;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #6e665f;
+    background: transparent;
+    padding: 45px 60px;
+    cursor: pointer;
+    color: #302923;
+}
+
+.letters-grid button:first-child {
+    background: #302923;
+    color: #f5f0ea;
+}
+
+.letters-grid button:hover {
+    background: #302923;
+    color: #f5f0ea;
+}
+
+.letters-grid span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 35px;
+    opacity: .7;
+}
+
+.letters-grid strong {
+    display: block;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.letters-grid small {
+    font-size: 14px;
+    font-style: italic;
+    opacity: .7;
+}
+
+
+/* READER */
+
+.reader {
+    display: none;
+    min-height: 100vh;
+    padding: 50px 25px 80px;
+}
+
+.back {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #706860;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.paper {
+    max-width: 750px;
+    margin: auto;
+    background: #fffdf9;
+    padding: 60px 35px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.06);
+}
+
+.letter-number {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #968d84;
+    margin-bottom: 30px;
+}
+
+.paper h2 {
+    font-size: clamp(35px, 8vw, 55px);
+    font-weight: 400;
+    line-height: 1.05;
+    margin-bottom: 50px;
+}
+
+#letterContent {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #4a423c;
+}
+
+#letterContent p {
+    margin-bottom: 25px;
+}
+
+.navigation {
+    max-width: 750px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5f5750;
+}
+
+</style>
 </head>
+
 
 <body>
 
-    <!-- COVER -->
 
-    <section class="cover" id="home">
+<!-- ================= COVER ================= -->
 
-        <p class="small-title">a little corner of my heart</p>
+<section class="cover" id="home">
 
-        <h1>
-            For<br>
-            My Dearest<br>
-            Jhan Xander
-        </h1>
+    <p class="small-title">
+        A LITTLE CORNER OF MY HEART
+    </p>
 
-        <p class="dedication">
-            somethings are easier to write than to say out loud, so i put them here,<br>
-            one letter at a time.
+    <h1>
+        For<br>
+        My Dearest<br>
+        Jhan Xander
+    </h1>
+
+    <p class="dedication">
+        somethings are easier to write than to say out loud,<br>
+        so i put them here, one letter at a time.
+    </p>
+
+    <button id="openCollection">
+        Open your letters ♡
+    </button>
+
+</section>
+
+
+
+<!-- ================= COLLECTION ================= -->
+
+<section class="collection" id="collection">
+
+    <p class="small-title">
+        THE COLLECTION
+    </p>
+
+    <h2>
+        Letters I want you to have
+    </h2>
+
+    <div class="letters-grid" id="lettersGrid"></div>
+
+</section>
+
+
+
+<!-- ================= LETTER READER ================= -->
+
+<section class="reader" id="reader">
+
+    <button class="back" id="backButton">
+        ← back to collection
+    </button>
+
+    <div class="paper">
+
+        <p class="letter-number" id="letterNumber">
+            LETTER 01
         </p>
 
-        <button onclick="openLetters()">
-            Open your letters ♡
+        <h2 id="letterTitle">
+            Before I Knew You
+        </h2>
+
+        <div id="letterContent"></div>
+
+    </div>
+
+    <div class="navigation">
+
+        <button id="previousButton">
+            ← Previous
         </button>
 
-    </section>
+        <button id="nextButton">
+            Next →
+        </button>
+
+    </div>
+
+</section>
 
 
-    <!-- FOR XANDER -->
 
-    <section class="collection" id="letters">
+<script>
 
-        <p class="small-title">THE COLLECTION</p>
+/* =========================================
+   YOUR LETTERS
+========================================= */
 
-        <h2>Letters I want you to have</h2>
+const letters = {
 
-        <div class="letters-grid">
+1: {
+title: "Before I Knew You",
+description: "How I admired you even before you knew I existed.",
+content: `
+<p>Happy birthday, Xander.</p>
 
-            <button onclick="openLetter(1)">
-                <span>01</span>
-                <strong>Before I Knew You</strong>
-                <small>How I admired you even before you knew I existed.</small>
-            </button>
+<p>Before anything else, I think it's funny how you were already a person in my head long before you actually knew I existed.</p>
 
-            <button onclick="openLetter(2)">
-                <span>02</span>
-                <strong>That Random Night on Live</strong>
-                <small>The unexpected night that somehow brought us together.</small>
-            </button>
+<p>Late 2024 pa lang, I already knew about you. Hindi naman yung tipong super obsessed ako or anything. It was more like a happy crush.</p>
 
-            <button onclick="openLetter(3)">
-                <span>03</span>
-                <strong>I Think I Got Attached Too Fast</strong>
-                <small>When you became important, quickly.</small>
-            </button>
+<p>You didn't even know me.</p>
 
-            <button onclick="openLetter(4)">
-                <span>04</span>
-                <strong>The THings I Notice About You</strong>
-                <small>the little things i adore</small>
-            </button>
+<p>I just knew you existed.</p>
 
-            <button onclick="openLetter(5)">
-                <span>05</span>
-                <strong>Do You Know How Attractive Your Mind Is?</strong>
-                <small>your mind is beautiful.</small>
-            </button>
+<p>I remember that little interaction you had with my friend. Ang liit lang naman niyang bagay, pero somehow I remembered it.</p>
 
-            <button onclick="openLetter(6)">
-                <span>06</span>
-                <strong>The Quiet Calls</strong>
-                <small>Your presence feels enough</small>
-            </button>
+<p>And now I'm writing twenty letters for your birthday.</p>
 
-            <button onclick="openLetter(7)">
-                <span>07</span>
-                <strong>You Didn't Create My Spark</strong>
-                <small>you reminded me of who I was.</small>
-            </button>
+<p>Like... what happened???</p>
 
-            <button onclick="openLetter(8)">
-                <span>08</span>
-                <strong>Are you out of my league?</strong>
-                <small>wondering if im enough.</small>
-            </button>
+<p>The person I used to just look at from afar became someone I talk to until morning. Someone I call baby. Someone I worry about.</p>
 
-            <button onclick="openLetter(9)">
-                <span>09</span>
-                <strong>Do You Like Me as a Whole?</strong>
-                <small>loving you beyond the surface.</small>
-            </button>
+<p>You didn't know me then.</p>
 
-            <button onclick="openLetter(10)">
-                <span>10</span>
-                <strong>We Were Both Scared of the Same Thing</strong>
-                <small>two hearts, one fear</small>
-            </button>
-
-            <button onclick="openLetter(11)">
-                <span>11</span>
-                <strong>There Are Things About Me I Still Don't Know How to Tell you</strong>
-                <small>The truths im still learning to share.</small>
-            </button>
-
-            <button onclick="openLetter(12)">
-                <span>12</span>
-                <strong>The Girl Before You</strong>
-                <small>who i was before</small>
-            </button>
-
-            <button onclick="openLetter(13)">
-    <span>13</span>
-    <strong>When You Go Quiet</strong>
-    <small>the silence that makes me worry</small>
-</button>
-
-<button onclick="openLetter(14)">
-    <span>14</span>
-    <strong>I Can't Carry Everything For You</strong>
-    <small>loving without losing myself.</small>
-</button>
-
-<button onclick="openLetter(15)">
-    <span>15</span>
-    <strong>Please Don't Be Mean to Yourself Because of Me</strong>
-    <small>please be gentle with yourself.</small>
-</button>
-
-<button onclick="openLetter(16)">
-    <span>16</span>
-    <strong>The Quiz I Didn't Study For</strong>
-    <small>when i disappointed myself.</small>
-</button>
-
-<button onclick="openLetter(17)">
-    <span>17</span>
-    <strong>Sorry I Went Quiet</strong>
-    <small>when i needed to breathe.</small>
-</button>
-
-<button onclick="openLetter(18)">
-    <span>18</span>
-    <strong>Us, Doing Our Own Things Together</strong>
-    <small>together, even in silence.</small>
-</button>
-
-<button onclick="openLetter(19)">
-    <span>19</span>
-    <strong>I Don't Know What We'll Become</strong>
-    <small>uncertain, but hopeful.</small>
-</button>
-
-<button onclick="openLetter(20)">
-    <span>20</span>
-    <strong>Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly</strong>
-    <small>Everything my heart couldn't say.</small>
-</button>
-
-        </div>
-
-        <div class="navigation">
-            <button onclick="previousLetter()">← Previous</button>
-            <button onclick="nextLetter()">Next →</button>
-        </div>
-
-    </section>
-
-
-    <script src="script.js"></script>
-
-</body>
-</html>
+<p>And you definitely didn't know that someday
