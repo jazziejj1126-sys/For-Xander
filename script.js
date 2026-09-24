@@ -1,1264 +1,640 @@
 const letters = {
-
-    1: {
-        title: "For You, On Your Birthday",
-        content: `
-
-            <p>
-            Happy birthday, baby.
-            </p>
-
-            <p>
-            Okay, I don't even know how to start this without sounding cringe HAHAHA.
-            Actually, I already know this whole thing is going to be cringe. But whatever.
-            It's your birthday, so you're forced to read my pagiging cheesy.
-            </p>
-
-            <p>
-            I wanted to give you something that feels like me. And honestly, I couldn't
-            think of anything more me than writing.
-            </p>
-
-            <p>
-            You know how I have so many thoughts? Like literally, sometimes I don't even
-            know where my own brain is going. I can be talking to you normally and then
-            suddenly I'll have this whole paragraph in my head about you. Tapos hindi ko
-            sasabihin because I'm shy or because I don't know how to say it without
-            sounding OA.
-            </p>
-
-            <p>
-            So I wrote it instead.
-            </p>
-
-            <p>
-            Twelve letters. Twelve little pieces of me.
-            </p>
-
-            <p>
-            And I want you to read them not just as love letters, but as a way of knowing me.
-            Kasi there's so much of me that you haven't seen yet. There are things I don't
-            know how to say directly. Things I only admit to myself when I'm alone.
-            Things I write in my diary because saying them out loud makes them feel too real.
-            </p>
-
-            <p>
-            And somehow, ikaw yung person I want to read them.
-            </p>
-
-            <p>
-            I want you to know who I was before you. But more than that, I want you to know
-            what happened to me after you came into my life.
-            </p>
-
-            <p>
-            Because Xander, you didn't just become someone I liked.
-            You became someone I started writing about.
-            </p>
-
-            <p>
-            And for someone like me, that's a big fucking deal.
-            </p>
-
-            <p>
-            So happy birthday, baby.
-            </p>
-
-            <p>
-            I hope while reading these, you realize na hindi lang kita mahal.
-            I notice you. I appreciate you. I remember you.
-            </p>
-
-            <p>
-            And I am so, so happy that somehow, out of all the people in this world,
-            our paths crossed.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    2: {
-        title: "The Things I Never Tell You About Myself",
-        content: `
-
-            <p>
-            Before I tell you everything about how much I love you, I think you should
-            know why I love the way I do.
-            </p>
-
-            <p>
-            I'm actually a very emotional person. Like, very.
-            Crybaby talaga ako. HAHAHA.
-            </p>
-
-            <p>
-            I can act okay, joke around, be loud, be competitive, do school stuff,
-            talk to people, and make it look like everything's fine. But inside my head?
-            Girl, there's a whole fucking documentary happening.
-            </p>
-
-            <p>
-            I overthink. I remember. I feel things for a long time.
-            And sometimes I don't even know why something affects me so much.
-            </p>
-
-            <p>
-            I think a lot of that came from losing people. Especially my mom.
-            </p>
-
-            <p>
-            I was twelve when I lost her, and I don't think twelve-year-old me understood
-            that grief wasn't just going to be one chapter of my life.
-            It was going to follow me.
-            </p>
-
-            <p>
-            Sometimes I lose someone or something in the present, and somehow my heart
-            finds its way back to her.
-            </p>
-
-            <p>
-            And maybe that's why I get scared of losing people I love.
-            Because once someone becomes important to me, hindi ko na siya madaling
-            tanggalin sa puso ko.
-            </p>
-
-            <p>
-            And unfortunately for you...
-            you became important.
-            </p>
-
-            <p>
-            Like, very important.
-            </p>
-
-            <p>
-            Sometimes I think that's why I appreciate your presence so much.
-            Because I know what absence feels like.
-            I know what it means to wish someone was still here.
-            </p>
-
-            <p>
-            So when you're here—when you're on call, when you're sending me a random reel,
-            when you're talking to me about some random thought—I notice it.
-            </p>
-
-            <p>
-            Maybe you think it's nothing.
-            For me, it's not.
-            </p>
-
-            <p>
-            You being there is something.
-            </p>
-
-            <p>
-            And I hope you know that.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    3: {
-        title: "I Think You Don't Realize How Much I Notice You",
-        content: `
-
-            <p>
-            One thing about me is that I notice small things.
-            </p>
-
-            <p>
-            And one thing about you is that you give me a LOT of small things to notice.
-            </p>
-
-            <p>
-            Your way of talking. Your choice of words. The way you think.
-            The way you can be so soft without trying to be.
-            Your empathy. Your broad way of looking at things.
-            </p>
-
-            <p>
-            Your mind.
-            </p>
-
-            <p>
-            God, your mind.
-            </p>
-
-            <p>
-            I don't think you understand how attractive that is to me.
-            Not just because you're smart. It's because you think differently.
-            You make me think.
-            </p>
-
-            <p>
-            And I love that about you.
-            </p>
-
-            <p>
-            Remember when I told you that I love literature?
-            And you offered to help me find the right words?
-            Then you said you wanted to show me literature and poetry?
-            </p>
-
-            <p>
-            Bro.
-            </p>
-
-            <p>
-            I swear I was trying so hard not to be affected.
-            Pero inside, I was like, "????? why is this so fucking cute?"
-            </p>
-
-            <p>
-            Because it's not just about literature.
-            It's the thought behind it.
-            </p>
-
-            <p>
-            You wanting to share something you know with me.
-            You wanting to enter something I love.
-            You wanting to give me words when you know words mean so much to me.
-            </p>
-
-            <p>
-            That's the kind of thing that gets me.
-            </p>
-
-            <p>
-            I don't fall in love only with grand gestures.
-            Sometimes I fall in love with sentences.
-            With effort. With someone's mind.
-            With the way they make me feel understood without even trying.
-            </p>
-
-            <p>
-            And that's why I appreciate you.
-            You don't have to be perfect for me to admire you.
-            </p>
-
-            <p>
-            Actually, I don't want a perfect version of you.
-            I want you.
-            </p>
-
-            <p>
-            The soft you. The thoughtful you. The funny you.
-            The complicated you. The you that sometimes doesn't know what to say.
-            The you that has things you don't tell people.
-            </p>
-
-            <p>
-            I want to know all of it.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    4: {
-        title: "The Embarrassing Truth: I Knew You Before You Knew Me",
-        content: `
-
-            <p>
-            Okay. This one is embarrassing.
-            </p>
-
-            <p>
-            Because imagine telling the person you're currently talking to that you already
-            had a crush on him YEARS AGO. 😭
-            </p>
-
-            <p>
-            Like???
-            </p>
-
-            <p>
-            Girl, stand up.
-            </p>
-
-            <p>
-            But yes.
-            I knew of you before you knew me.
-            </p>
-
-            <p>
-            Late 2024.
-            You were literally just this guy I thought was cute.
-            A happy crush lang naman.
-            Nothing serious.
-            At least that's what I told myself.
-            </p>
-
-            <p>
-            Then I heard you were already entertaining someone, so obviously I had to behave.
-            Pero apparently my brain was like:
-            "Okay, but let's remember him anyway."
-            </p>
-
-            <p>
-            HAHAHAHAHA.
-            </p>
-
-            <p>
-            And I still remembered those little things.
-            That interaction with my friend.
-            Seeing you around.
-            Knowing of you without actually knowing you.
-            </p>
-
-            <p>
-            And what's funny is that back then, I never imagined I'd actually become
-            someone you'd talk to.
-            </p>
-
-            <p>
-            I never imagined I'd call you baby.
-            I never imagined we'd have sleep calls.
-            I never imagined you'd become someone whose silence I would notice.
-            I definitely never imagined I'd be writing twelve fucking letters for you.
-            </p>
-
-            <p>
-            And then September 4 happened.
-            CJ's birthday.
-            The live.
-            You watching.
-            Me talking to you.
-            </p>
-
-            <p>
-            And then September 5.
-            Us.
-            </p>
-
-            <p>
-            Sometimes I genuinely think about how weird life is.
-            Because I had this little crush on someone who didn't even know I existed.
-            And now I'm sitting here writing about how much I love him.
-            </p>
-
-            <p>
-            What the fuck.
-            </p>
-
-            <p>
-            Life really said, plot twist.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    5: {
-        title: "September 5, The Day You Became Real to Me",
-        content: `
-
-            <p>
-            September 5 will always feel a little special to me.
-            </p>
-
-            <p>
-            Because that's when you stopped being this distant person I only knew of.
-            You became real.
-            </p>
-
-            <p>
-            You became someone I could talk to.
-            Someone who could reply to me.
-            Someone whose voice I could hear.
-            Someone whose thoughts I could actually know.
-            </p>
-
-            <p>
-            And I think that's when my crush slowly became something else.
-            </p>
-
-            <p>
-            Because liking someone from afar is easy.
-            You can romanticize them.
-            You don't know their bad days.
-            You don't know their insecurities.
-            You don't know how they think.
-            You only know what you see.
-            </p>
-
-            <p>
-            But then I started knowing you.
-            </p>
-
-            <p>
-            And somehow—
-            I liked you more.
-            </p>
-
-            <p>
-            Which is honestly unfair.
-            Because I thought actually getting to know you would make the crush disappear.
-            Instead, it made it worse.
-            HAHAHAHA.
-            </p>
-
-            <p>
-            I started seeing how thoughtful you are.
-            How careful you can be with words.
-            How empathetic you are.
-            How you have this softness that I really, really love.
-            </p>
-
-            <p>
-            And I started realizing that the person I liked wasn't just some idea in my head.
-            You were an actual person.
-            </p>
-
-            <p>
-            And somehow, the actual person was even more lovable.
-            </p>
-
-            <p>
-            That's when I knew I was in trouble.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    6: {
-        title: "Somewhere Between 'Baby' and 'I Love You'",
-        content: `
-
-            <p>
-            I don't know when I started calling you baby.
-            Actually, I know.
-            </p>
-
-            <p>
-            Ako.
-            </p>
-
-            <p>
-            Ako ang nauna.
-            HAHAHAHAHA.
-            </p>
-
-            <p>
-            And now look at me.
-            Writing a whole letter about you calling you baby.
-            Cringe.
-            </p>
-
-            <p>
-            But I don't care.
-            Because I love the little things we've built.
-            </p>
-
-            <p>
-            Our calls.
-            Our sleep calls.
-            Our random reels.
-            Our memes.
-            Our nonsense.
-            Our conversations that sometimes go nowhere.
-            </p>
-
-            <p>
-            And the silence.
-            Especially the silence.
-            </p>
-
-            <p>
-            I never thought I'd be comfortable sitting in silence with someone.
-            Pero with you, okay lang.
-            </p>
-
-            <p>
-            Sometimes I'm muted, listening to you.
-            Sometimes we're both doing our own thing.
-            Sometimes we're barely talking.
-            And yet I don't feel like I have to leave.
-            </p>
-
-            <p>
-            Your presence is enough.
-            </p>
-
-            <p>
-            That sounds so cheesy.
-            But it's true.
-            </p>
-
-            <p>
-            And I think that's when I started realizing that I wasn't just excited to talk to you.
-            I liked being with you.
-            </p>
-
-            <p>
-            Even when there was nothing happening.
-            </p>
-
-            <p>
-            And maybe that's what makes me scared to say "I love you" too easily.
-            Because what I feel for you doesn't feel like something I want to rush.
-            I want to know it.
-            I want to grow into it.
-            I want to understand it.
-            </p>
-
-            <p>
-            But if I'm being completely honest with myself?
-            </p>
-
-            <p>
-            Baby...
-            </p>
-
-            <p>
-            I think my heart already knows.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    7: {
-        title: "You Brought My Spark Back",
-        content: `
-
-            <p>
-            I don't think you know what you did to me.
-            </p>
-
-            <p>
-            Before you, I felt so fucking tired.
-            School felt heavy.
-            I wasn't as motivated.
-            I wasn't that excited about things anymore.
-            </p>
-
-            <p>
-            And then you came.
-            </p>
-
-            <p>
-            And suddenly, I wanted to do things again.
-            Assignments.
-            School.
-            Little goals.
-            Things that I had been procrastinating suddenly felt possible.
-            </p>
-
-            <p>
-            You didn't tell me to become motivated.
-            You didn't force me.
-            You just existed in my life.
-            </p>
-
-            <p>
-            And somehow, that was enough to remind me that there was still a version of
-            myself who wanted things.
-            </p>
-
-            <p>
-            That's why when I say you brought back my spark, I don't mean you saved me.
-            You reminded me that I could still save pieces of myself.
-            </p>
-
-            <p>
-            And I think that's one of the reasons I love you so much.
-            </p>
-
-            <p>
-            You don't even realize the effect you have.
-            You just being you can change someone's day.
-            </p>
-
-            <p>
-            You changed mine.
-            </p>
-
-            <p>
-            You made me excited to open my phone.
-            You made me want to tell someone about my day.
-            You made me look forward to calls.
-            You made me believe that maybe I could still feel something this strongly.
-            </p>
-
-            <p>
-            And honestly?
-            I feel lucky.
-            </p>
-
-            <p>
-            You told me you're lucky to have me.
-            But baby...
-            </p>
-
-            <p>
-            I'm the one who feels lucky.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    8: {
-        title: "The Parts of Me I Am Afraid You'll See",
-        content: `
-
-            <p>
-            I love that you tell me you'd like any side of me.
-            But you don't understand how scary that is for someone like me.
-            </p>
-
-            <p>
-            Because what if you actually see all of me?
-            </p>
-
-            <p>
-            What if you see the insecure me?
-            The academically struggling me?
-            The emotional me?
-            The overthinking me?
-            The me who sometimes doesn't know what she's doing?
-            </p>
-
-            <p>
-            What if you see everything and think,
-            "Oh. She's not what I thought she was."
-            </p>
-
-            <p>
-            That's one of the things I don't tell you enough.
-            Sometimes I worry about whether I'm enough for you.
-            </p>
-
-            <p>
-            Especially because I admire your mind so much.
-            Sometimes I think about that intellectual gap you mentioned before,
-            and my stupid brain immediately goes,
-            "What if one day he realizes I'm not enough?"
-            </p>
-
-            <p>
-            And it's not even something you're actively making me feel.
-            It's my own fear.
-            My own insecurity.
-            My own tendency to think ten steps ahead of something that hasn't even happened.
-            </p>
-
-            <p>
-            But I want to be honest with you.
-            </p>
-
-            <p>
-            I don't want to spend our relationship constantly trying to impress you.
-            I don't want to be your smart girl only when I'm doing well.
-            I don't want to be your pretty girl only when I look good.
-            </p>
-
-            <p>
-            I want to be Jazzlyn.
-            </p>
-
-            <p>
-            Messy.
-            Emotional.
-            Competitive.
-            Soft.
-            Funny.
-            Sometimes annoying.
-            Sometimes clingy.
-            Sometimes quiet.
-            Sometimes completely fucking confused.
-            </p>
-
-            <p>
-            And still—
-            someone you choose to know.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    9: {
-        title: "If Everything Around Me Fell Apart, I'd Still Look for You",
-        content: `
-
-            <p>
-            Okay, this is probably the most dramatic thing I'm going to write.
-            But you know me.
-            I am dramatic.
-            So let me be dramatic for a minute.
-            </p>
-
-            <p>
-            If everything around me suddenly became uncertain, I think one of the first
-            things I'd look for is you.
-            </p>
-
-            <p>
-            Not because I want you to fix everything.
-            Not because I want you to carry me.
-            </p>
-
-            <p>
-            But because when everything feels unfamiliar, you feel familiar.
-            </p>
-
-            <p>
-            And that's such a scary kind of comfort.
-            Because it means you matter.
-            A lot.
-            </p>
-
-            <p>
-            Sometimes I think, "I'd choose you even if everything else was falling apart."
-            And maybe that's the closest way I can explain how much I love you.
-            </p>
-
-            <p>
-            But I don't want that love to mean that I'd destroy myself just to keep you.
-            I want it to mean that even when things become hard, even when we're not
-            perfect, even when life gets messy—
-            I'd still want to find a way to choose you.
-            </p>
-
-            <p>
-            I'd still want to understand you.
-            I'd still want to fight for us.
-            I'd still want to sit beside you and say,
-            "Okay. Things are shit right now. But we're here."
-            </p>
-
-            <p>
-            Because I don't want a love that's only beautiful when everything is easy.
-            </p>
-
-            <p>
-            I want the kind where two people can say,
-            "This is hard."
-            </p>
-
-            <p>
-            And instead of immediately leaving,
-            "Okay. Then let's figure it out."
-            </p>
-
-            <p>
-            That's what I mean when I say I want to keep you.
-            Not by holding you so tightly that you can't breathe.
-            But by making a home where you don't feel like you have to run.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    10: {
-        title: "I Want to Know the Things You Don't Say",
-        content: `
-
-            <p>
-            You know what scares me more than you talking to someone else?
-            You not being okay.
-            </p>
-
-            <p>
-            When you disappear for hours, my brain doesn't immediately think,
-            "Who is he with?"
-            </p>
-
-            <p>
-            It thinks,
-            "Is he okay?"
-            </p>
-
-            <p>
-            And I hate that I can't always know.
-            Because I know you have your own battles.
-            Your own thoughts.
-            Your own things you don't always tell me.
-            </p>
-
-            <p>
-            And I want you to know that I'm interested in more than the easy parts of you.
-            </p>
-
-            <p>
-            I don't just want your jokes.
-            I don't just want your attention.
-            I don't just want the version of you that's okay.
-            </p>
-
-            <p>
-            I want to know the things you struggle to explain.
-            The things you're embarrassed about.
-            The things that make you doubt yourself.
-            The things that hurt.
-            The things that shaped you.
-            </p>
-
-            <p>
-            Even the parts you think aren't lovable.
-            </p>
-
-            <p>
-            Because I don't love you because you're always easy to understand.
-            I love that there's so much to understand about you.
-            </p>
-
-            <p>
-            And I hope you know—
-            you never have to perform happiness for me.
-            </p>
-
-            <p>
-            You can tell me you're having a bad day.
-            You can be quiet.
-            You can say you don't know what's wrong.
-            I'll still see you as you.
-            </p>
-
-            <p>
-            But I also want us to remember that love isn't supposed to be one person
-            drowning while the other tries to become a lifeboat.
-            </p>
-
-            <p>
-            I want to be beside you.
-            Not above you.
-            Not beneath you.
-            </p>
-
-            <p>
-            Beside you.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    11: {
-        title: "I Don't Just Want to Be Loved by You",
-        content: `
-
-            <p>
-            I think this is what I really want from you.
-            Not just to be loved.
-            To be known.
-            </p>
-
-            <p>
-            I want you to know that when I say I love literature, it's because words are
-            one of the places I feel safest.
-            </p>
-
-            <p>
-            I want you to know that I cry easily.
-            That I overthink.
-            That I can be stubborn.
-            That I care about school more than I sometimes admit.
-            That I can be so competitive and then suddenly be the softest person ever.
-            </p>
-
-            <p>
-            That I love green.
-            That I'm a crybaby.
-            That I remember little things.
-            That I get attached to moments.
-            That I can act like something doesn't matter when it actually matters a LOT.
-            </p>
-
-            <p>
-            I want you to know the girl who exists outside of our conversations.
-            </p>
-
-            <p>
-            But I also want to know the boy behind your words.
-            </p>
-
-            <p>
-            The one who told me he feels lucky to have me.
-            The one who hesitated to tell me things because he was scared I'd see him
-            differently.
-            The one with a broad mind.
-            The one who can be gentle.
-            The one who wants to show me poetry.
-            The one who I somehow became so fucking fond of.
-            </p>
-
-            <p>
-            I don't want us to only know the polished versions of each other.
-            I want the real ones.
-            </p>
-
-            <p>
-            Because I think that's where love becomes real.
-            </p>
-
-            <p>
-            Not when you say,
-            "I love everything about you."
-            </p>
-
-            <p>
-            But when you finally know enough to say,
-            "I know you."
-            </p>
-
-            <p>
-            And stay.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    },
-
-    12: {
-        title: "If You Ever Wondered How Much I Love You",
-        content: `
-
-            <p>
-            So this is the last one.
-            </p>
-
-            <p>
-            And honestly, I don't know how to end this because I feel like if I keep
-            writing, I'll just keep finding more things to say about you.
-            </p>
-
-            <p>
-            That's the problem with you.
-            You gave me too much to write about.
-            </p>
-
-            <p>
-            You became a person I could write paragraphs about without realizing how much
-            time had passed.
-            </p>
-
-            <p>
-            You became a name that could change my mood.
-            A notification I could get excited about.
-            A voice I could fall asleep to.
-            A person whose silence I notice.
-            A person whose happiness matters to me.
-            A person whose pain makes me worry.
-            A person whose mind I admire.
-            A person whose softness I love.
-            </p>
-
-            <p>
-            A person I once only knew of—
-            and somehow became someone I love.
-            </p>
-
-            <p>
-            And baby, I don't know exactly what the future will look like.
-            I don't know what we'll become.
-            I don't know what life will do to us.
-            </p>
-
-            <p>
-            But I know what I feel right now.
-            </p>
-
-            <p>
-            And right now, I am so fucking grateful that I met you.
-            </p>
-
-            <p>
-            I'm grateful for September 5.
-            I'm grateful for every call.
-            Every reel.
-            Every random conversation.
-            Every quiet moment.
-            Every stupid joke.
-            Every time you made me smile without even knowing.
-            </p>
-
-            <p>
-            I'm grateful for the way you brought back a part of me that I thought was gone.
-            I'm grateful that you made me believe in love again.
-            And I'm grateful that you let me love you.
-            </p>
-
-            <p>
-            I know I sometimes get scared.
-            I know I overthink.
-            I know I can be too emotional.
-            I know I might love a little too loudly inside my own head.
-            </p>
-
-            <p>
-            But I don't want to apologize for caring about you.
-            I don't want to pretend you're not important just to protect myself from
-            looking vulnerable.
-            </p>
-
-            <p>
-            Because you are important.
-            You are.
-            </p>
-
-            <p>
-            And if one day you ever wonder,
-            "Did Jazzlyn really mean all those things she wrote?"
-            </p>
-
-            <p>
-            Yes.
-            She did.
-            </p>
-
-            <p>
-            The cheesy parts.
-            The embarrassing parts.
-            The "baby" parts.
-            The dramatic parts.
-            The paragraphs that probably made you want to hide your face because they're
-            so fucking cringe.
-            </p>
-
-            <p>
-            All of it.
-            </p>
-
-            <p>
-            Because this is me.
-            And this is how I love.
-            </p>
-
-            <p>
-            I don't want to love you only when it's convenient.
-            I don't want to be there only when you're easy to love.
-            I want to know you when you're complicated.
-            I want to celebrate you when you're happy.
-            I want to listen when you're confused.
-            I want to remind you of yourself when you forget who you are.
-            </p>
-
-            <p>
-            And if life gets messy, I hope we don't immediately think that messy means broken.
-            </p>
-
-            <p>
-            Sometimes things just need patience.
-            Sometimes people just need understanding.
-            Sometimes love just needs two people who are willing to say,
-            "I'm still here."
-            </p>
-
-            <p>
-            So if everything around us ever feels like it's falling apart, I hope you
-            remember this:
-            </p>
-
-            <p>
-            I don't need you to be perfect.
-            I don't need you to always know what to say.
-            I don't need you to have everything figured out.
-            </p>
-
-            <p>
-            I just want you.
-            </p>
-
-            <p>
-            And I hope, somehow, I get to keep knowing you.
-            </p>
-
-            <p>
-            Not possess you.
-            Not fix you.
-            Not save you.
-            </p>
-
-            <p>
-            Just—
-            know you.
-            </p>
-
-            <p>
-            And let you know me.
-            </p>
-
-            <p>
-            The real me.
-            </p>
-
-            <p>
-            The girl behind these twelve letters.
-            The girl who cries too much.
-            Thinks too much.
-            Feels too much.
-            Loves too much.
-            </p>
-
-            <p>
-            And somehow—
-            loves you.
-            </p>
-
-            <p>
-            Happy birthday, Xander.
-            </p>
-
-            <p>
-            I hope this year is gentle with you.
-            </p>
-
-            <p>
-            And I hope when you read these letters, you don't just see how much I love you.
-            </p>
-
-            <p>
-            I hope you finally understand why.
-            </p>
-
-            <p>
-            Because somewhere between a TikTok live, a September 5 conversation,
-            countless calls, random reels, quiet moments, literature, school,
-            insecurities, laughter, and all the little things in between—
-            </p>
-
-            <p>
-            you became someone I never want to describe as "just someone I used to know."
-            </p>
-
-            <p>
-            You became you.
-            </p>
-
-            <p>
-            And I became the girl who got lucky enough to know you.
-            </p>
-
-            <p>
-            Happy birthday, baby.
-            </p>
-
-            <p>
-            I love you.
-            </p>
-
-            <p>
-            — Jazzlyn
-            </p>
-        `
-    }
-
+  1: {
+    title: "Before I Knew You",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>Before anything else, I think it's funny how you were already a person in my head long before you actually knew I existed.</p>
+      <p>Late 2024 pa lang, I already knew about you. Hindi naman yung tipong super obsessed ako or anything. It was more like a happy crush. Yung crush na you admire from afar kasi may narinig ka na may ine-entertain na siyang iba, so obviously, ano bang gagawin ko? HAHAHA. Nothing.</p>
+      <p>You didn't even know me.</p>
+      <p>I just knew you existed.</p>
+      <p>I remember that little interaction you had with my friend. Ang liit lang naman niyang bagay, pero somehow I remembered it. I think that's how it started. I didn't know you personally, but there was already something about you that made me curious.</p>
+      <p>And now I'm writing twenty letters for your birthday.</p>
+      <p>Like... what happened???</p>
+      <p>It's actually crazy to think about.</p>
+      <p>The person I used to just look at from afar became someone I talk to until morning. Someone I call baby. Someone I worry about. Someone whose random stories about his day I actually want to hear. Someone who somehow became important to me in such a short amount of time.</p>
+      <p>You didn't know me then.</p>
+      <p>And you definitely didn't know that someday, I'd be sitting here trying to find the right words for you.</p>
+      <p>Happy birthday to the boy I once only knew from a distance.</p>
+      <p>I guess I finally got to know you.</p>
+      <p>And I'm really glad I did.</p>
+    `
+  },
+  2: {
+    title: "That Random Night on Live",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>I still think about how random the night we actually started talking was.</p>
+      <p>Sept. 4.</p>
+      <p>My friend wanted to go live on TikTok, CJ joined because it was his birthday, people were drinking, and somehow you were there because you're his cousin.</p>
+      <p>That's it.</p>
+      <p>That's literally how this started.</p>
+      <p>I didn't know that night would become something I'd remember this much.</p>
+      <p>Then I got to talk to you on live. After I ended it, CJ was encouraging us toward each other, telling me to follow you, giving me your Instagram, and then there was that call where you were shy.</p>
+      <p>And then somehow...</p>
+      <p>we just kept talking.</p>
+      <p>Until morning.</p>
+      <p>I remember thinking you're actually so charming. You're funny, witty, articulate, and your vocabulary is insane. HAHAHA. I was genuinely intimidated by you.</p>
+      <p>Parang, “Okay... bakit ang lawak ng pag-iisip nito?”</p>
+      <p>And I think that was one of the first things that really attracted me to you—not just your face, but your mind.</p>
+      <p>You had this way of talking that made me want to keep listening.</p>
+      <p>I didn't know what was going to happen after that night.</p>
+      <p>Honestly, I probably should've just thought, “That was fun.”</p>
+      <p>But then Sept. 5 came.</p>
+      <p>And we started talking.</p>
+      <p>And then suddenly you're here, in these letters.</p>
+      <p>It's funny how one random night can quietly change the direction of things.</p>
+      <p>I don't think either of us knew what we were starting.</p>
+    `
+  },
+  3: {
+    title: "I Think I Got Attached Too Fast",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>Okay, this one is embarrassing.</p>
+      <p>I think I got attached too fast.</p>
+      <p>Like... <i>too</i> fast.</p>
+      <p>We've barely known each other for two weeks and look at me. I'm already writing twenty birthday letters for you. 😭</p>
+      <p>Sometimes I literally stop and think, “Girl, calm down. You just met him.”</p>
+      <p>And I know that.</p>
+      <p>That's why I've questioned myself a lot.</p>
+      <p>Is this real? Is this just infatuation? Do I like you because you're the person who's here right now? Am I getting attached because everything happened so suddenly?</p>
+      <p>I don't have all the answers.</p>
+      <p>And I don't want to pretend that I do.</p>
+      <p>I just know that I like talking to you.</p>
+      <p>I like knowing how your day went.</p>
+      <p>I like your random stories.</p>
+      <p>I like the reels.</p>
+      <p>I like the stupid memes.</p>
+      <p>I like when we call and barely even talk.</p>
+      <p>I like hearing you exist on the other side of the phone while I'm doing my own thing.</p>
+      <p>And that's probably what scares me.</p>
+      <p>Because I know how quickly someone can become important.</p>
+      <p>And I know I can't control whether people stay.</p>
+      <p>So sometimes I get scared that time will eventually take you away from me.</p>
+      <p>But I'm trying not to live in the ending before we've even had the chance to live in the beginning.</p>
+      <p>So for now, happy birthday.</p>
+      <p>I'm here.</p>
+      <p>You're here.</p>
+      <p>And I'm really happy that you're here.</p>
+    `
+  },
+  4: {
+    title: "The Things I Notice About You",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>I don't think I tell you enough how much I admire you.</p>
+      <p>And no, I'm not talking about your looks.</p>
+      <p>Obviously you're pretty. You're attractive. I know that. HAHAHA. But honestly, I hope pretty becomes one of the least interesting things you know I notice about you.</p>
+      <p>I notice your mind.</p>
+      <p>I notice how broad your thinking is.</p>
+      <p>I notice how you can take something I say jokingly and somehow respond to it in a way that's actually thoughtful.</p>
+      <p>I notice how careful you are with your words.</p>
+      <p>You're gentle in ways I don't think you always realize.</p>
+      <p>I like your soft side.</p>
+      <p>I like the feminine qualities in you. I like that you don't seem scared to have them. I like that you can be empathetic and still have such a strong personality.</p>
+      <p>I admire how you think.</p>
+      <p>I admire how you communicate.</p>
+      <p>And I admire that you have your own opinions and your own way of looking at things.</p>
+      <p>Sometimes I honestly feel a little intimidated by you.</p>
+      <p>Not because you're better than me.</p>
+      <p>But because I think, “How am I supposed to keep up with this person?”</p>
+      <p>And maybe that's one of the reasons I admire you so much.</p>
+      <p>You make me want to expand.</p>
+      <p>You make me want to learn more.</p>
+      <p>You make me want to have deeper conversations.</p>
+      <p>And that's something I don't think I could ever reduce to just “he's cute.”</p>
+      <p>You're so much more interesting than that.</p>
+    `
+  },
+  5: {
+    title: "Do You Know How Attractive Your Mind Is?",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I remember telling you that I want to be the woman you admire, not just the woman you're attracted to.</p>
+      <p>I meant that.</p>
+      <p>I don't want you to look at me and only think I'm pretty.</p>
+      <p>I want you to know how I think.</p>
+      <p>I want you to know what I'm passionate about.</p>
+      <p>I want you to know my stupid opinions, my random thoughts, my dreams, my insecurities, even the things I don't know how to explain.</p>
+      <p>I want to challenge you too.</p>
+      <p>I want us to be able to talk about things and actually learn from each other.</p>
+      <p>And maybe that's why your mind attracted me so much.</p>
+      <p>You make me think.</p>
+      <p>You make me curious.</p>
+      <p>You made me realize that I want someone who can actually meet me somewhere deeper than appearance.</p>
+      <p>And I hope I can be that person for you too.</p>
+      <p>Not someone who always has the smartest answer.</p>
+      <p>Not someone who's always impressive.</p>
+      <p>Just someone you genuinely enjoy having beside you.</p>
+      <p>Someone who makes you think.</p>
+      <p>Someone who makes you feel understood.</p>
+      <p>Someone you can talk to and think, “I want to tell her this.”</p>
+      <p>That's the kind of person I want to be for you.</p>
+    `
+  },
+  6: {
+    title: "The Quiet Calls",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>I don't think you understand how much I love our quiet calls.</p>
+      <p>Actually, sometimes I think we don't even have to talk.</p>
+      <p>There are calls where I'm muted and I'm just listening.</p>
+      <p>There are sleep calls.</p>
+      <p>There are times we're both doing completely different things.</p>
+      <p>You're doing your agendas, I'm doing my schoolwork, we're both on our phones doing side quests, and technically we're not even having a proper conversation.</p>
+      <p>But I still like it.</p>
+      <p>Your presence is enough sometimes.</p>
+      <p>And that sounds so simple, but it means a lot to me.</p>
+      <p>There was even that time you stayed on a sleep call kahit wala kang Wi-Fi.</p>
+      <p>I know it's such a tiny thing.</p>
+      <p>But I remember it.</p>
+      <p>I remember little things like that.</p>
+      <p>Because I don't think closeness is always about having something profound to say.</p>
+      <p>Sometimes it's just:</p>
+      <p><i>“You're there.”</i></p>
+      <p>And I'm there too.</p>
+      <p>That's enough.</p>
+      <p>I like knowing that I can be quiet around you.</p>
+      <p>I don't always have to perform.</p>
+      <p>I don't always have to be funny.</p>
+      <p>I don't always have to have something interesting to say.</p>
+      <p>I can just exist.</p>
+      <p>And somehow, with you, that feels okay.</p>
+    `
+  },
+  7: {
+    title: "You Didn't Create My Spark",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>This is probably one of the biggest things I want you to know.</p>
+      <p><strong>You didn't create my spark. You reminded me that it was still there.</strong></p>
+      <p>Before you, I had been so unmotivated.</p>
+      <p>I knew I was capable of more, but knowing that and actually doing something about it are two completely different things.</p>
+      <p>I became lazy with school.</p>
+      <p>I stopped caring the way I used to.</p>
+      <p>I knew I was competitive academically, but parang nawala yung drive ko.</p>
+      <p>Then you came.</p>
+      <p>And suddenly I'm doing assignments while we're on call.</p>
+      <p>I'm studying while you're doing your own schoolwork.</p>
+      <p>We're staying until morning even though we both have school.</p>
+      <p>And somehow just having you there makes me want to finish something.</p>
+      <p>You didn't magically make me smarter.</p>
+      <p>You didn't fix me.</p>
+      <p>You didn't save me.</p>
+      <p>You just reminded me of a version of myself I had stopped paying attention to.</p>
+      <p>And I love that about you.</p>
+      <p>Because you made me want to become more.</p>
+      <p>But I also know that the spark is mine.</p>
+      <p>So if someday you wonder what you did for me, that's what you did.</p>
+      <p>You reminded me that there was still something in me worth bringing back.</p>
+      <p>And I'll always be grateful for that.</p>
+    `
+  },
+  8: {
+    title: "Are You Out of My League?",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I'm going to be honest.</p>
+      <p>Sometimes I think you're out of my league.</p>
+      <p>Not because you're perfect.</p>
+      <p>You're definitely not. HAHAHA.</p>
+      <p>But because of the way you think.</p>
+      <p>Your personality.</p>
+      <p>Your confidence in certain things.</p>
+      <p>Your ability to talk about things I sometimes struggle to put into words.</p>
+      <p>There are moments where I wonder if I'll be able to keep up with you.</p>
+      <p>And I hate admitting that because I don't want to feel like I'm beneath you.</p>
+      <p>I don't want our relationship to become some comparison of who's smarter or who's more accomplished.</p>
+      <p>But sometimes my brain does that anyway.</p>
+      <p>Especially because you told me you knew I was smart back in Grade 11.</p>
+      <p>And then when I failed that quiz because I didn't review, your words about knowing I could do more hit me harder than I expected.</p>
+      <p>Not because you were wrong.</p>
+      <p>But because I already knew I wasn't giving myself what I used to.</p>
+      <p>And hearing it from you made me realize how much I care about what you think of me.</p>
+      <p>That's scary.</p>
+      <p>Because I don't want to constantly feel like I have to prove that I'm good enough for you.</p>
+      <p>I want you to see me trying.</p>
+      <p>Even when I'm not at my best.</p>
+      <p>Even when I'm lazy.</p>
+      <p>Even when I'm lost.</p>
+      <p>Even when I disappoint myself.</p>
+      <p>I don't want to impress you all the time.</p>
+      <p>I want you to know me.</p>
+    `
+  },
+  9: {
+    title: "Do You Like Me as a Whole?",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>When you asked me if I really like you as a whole, I don't think you realized how much that question stayed with me.</p>
+      <p>Because the funny thing is...</p>
+      <p>while you're wondering if I like you enough, I'm in my diary wondering if <strong>I'm good enough for you.</strong></p>
+      <p>We were both overthinking.</p>
+      <p>You were wondering if I'd still like you after seeing everything.</p>
+      <p>I was wondering if you'd still like me after seeing everything.</p>
+      <p>And I think that's why your question meant so much.</p>
+      <p>Because I don't just like the easy parts of you.</p>
+      <p>I like the way you think.</p>
+      <p>Your personality.</p>
+      <p>Your softness.</p>
+      <p>Your complicated sides.</p>
+      <p>The things you overthink.</p>
+      <p>The things you're insecure about.</p>
+      <p>The parts of your past that you're not proud of.</p>
+      <p>The things you're still figuring out.</p>
+      <p>I'm not saying I understand everything.</p>
+      <p>I don't.</p>
+      <p>And I don't want to pretend that love means automatically understanding every single part of someone.</p>
+      <p>But I want to know.</p>
+      <p>I want to learn.</p>
+      <p>I want to meet the real you, not some edited version.</p>
+      <p>And I hope you eventually feel the same way about me.</p>
+      <p>Because I don't want you to only know the version of me that knows how to be lovable.</p>
+      <p>I want you to know me as a whole too.</p>
+    `
+  },
+  10: {
+    title: "We Were Both Scared of the Same Thing",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I still think it's funny how we were both scared of the same thing without realizing it.</p>
+      <p>You were scared to tell me about your three-year TESDA program because you thought I might get turned off after I told you I was in college.</p>
+      <p>And I understood that fear more than you probably know.</p>
+      <p>Because I've also felt ashamed around someone I liked.</p>
+      <p>I've also thought, “What if they know this about me and suddenly they see me differently?”</p>
+      <p>And there I was, thinking you might reject me once you knew the real me.</p>
+      <p>Meanwhile, you were thinking the exact same thing.</p>
+      <p>It's almost funny how we were both standing on opposite sides of the same fear, wondering if the other person would still choose us once the things we were hiding became visible.</p>
+      <p>That's probably one of the things I like most about what happened between us.</p>
+      <p>We both realized we're human.</p>
+      <p>We both have things we're insecure about.</p>
+      <p>We both have things we don't immediately know how to say.</p>
+      <p>And maybe knowing someone isn't about revealing everything in one dramatic confession.</p>
+      <p>Maybe it's just slowly saying:</p>
+      <p><i>“Okay. Here's another part of me.”</i></p>
+      <p>And waiting to see if the other person stays.</p>
+      <p>So far, you stayed.</p>
+      <p>And I hope I have made you feel like you can stay too.</p>
+    `
+  },
+  11: {
+    title: "There Are Things About Me I Still Don't Know How to Tell You",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>I know you've told me things you're ashamed of.</p>
+      <p>And I appreciate that more than I probably say.</p>
+      <p>But sometimes I feel guilty because I know things about you that you were brave enough to tell me, while there are still so many things about me that I don't know how to say.</p>
+      <p>Not because I don't trust you.</p>
+      <p>Sometimes I just don't know how to talk about myself without feeling embarrassed.</p>
+      <p>There are things I've done that I knew weren't right.</p>
+      <p>There are things I regret.</p>
+      <p>There are parts of my past that I don't particularly like looking at.</p>
+      <p>And sometimes I wonder if you'll see me differently once you know them.</p>
+      <p>I don't want to lie to you just because I'm scared of being rejected.</p>
+      <p>I've already learned how painful it is to lose yourself trying to be whatever someone else wants.</p>
+      <p>So I want to do this differently.</p>
+      <p>Slowly.</p>
+      <p>Honestly.</p>
+      <p>One piece at a time.</p>
+      <p>Maybe someday I'll be able to tell you everything without rehearsing the words first.</p>
+      <p>But if I can't yet, I hope you don't think it means I don't want you to know me.</p>
+      <p>I do.</p>
+      <p>I'm just learning how to let someone see me.</p>
+    `
+  },
+  12: {
+    title: "The Girl Before You",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>There's a version of me that existed before you that I don't always know how to explain.</p>
+      <p>A girl who accepted things she shouldn't have accepted.</p>
+      <p>A girl who waited for someone to choose her.</p>
+      <p>A girl who gave too much even when she knew she wasn't being treated the way she deserved.</p>
+      <p>I became so used to being someone's second choice that I started convincing myself that being chosen eventually would be enough.</p>
+      <p>It wasn't.</p>
+      <p>And I don't want to romanticize that part of my past.</p>
+      <p>It hurt.</p>
+      <p>I was also responsible for some choices I made. There are things I did knowing they weren't right because at the time, somehow, they felt fun or easier or exciting.</p>
+      <p>I don't want to pretend I was always innocent or always made the right decisions.</p>
+      <p>But I also don't want my worst decisions to become the entire definition of me.</p>
+      <p>That's something I hope you understand about me.</p>
+      <p>I'm not proud of everything I've done.</p>
+      <p>But I'm trying to become someone who doesn't repeat the same things.</p>
+      <p>And maybe that's why your acceptance has meant so much.</p>
+      <p>When you told me you wouldn't define me by what I did in the past, I remembered that people can actually look at you and still see a person.</p>
+      <p>Not just a mistake.</p>
+      <p>Not just a story.</p>
+      <p>Me.</p>
+    `
+  },
+  13: {
+    title: "When You Go Quiet",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>Okay, here's one of the less cute parts of me.</p>
+      <p>When you disappear for hours, I worry.</p>
+      <p>And yes, sometimes I check if you're online or offline and then immediately regret doing it because my brain starts creating stories.</p>
+      <p>But it's not really about cheating.</p>
+      <p>That's not what I usually worry about.</p>
+      <p>I worry about <strong>you.</strong></p>
+      <p>I wonder if you're okay.</p>
+      <p>I wonder if something happened.</p>
+      <p>I wonder if you're having a bad day and don't know how to say it.</p>
+      <p>Sometimes I wonder if you're simply busy and I'm overthinking everything.</p>
+      <p>And honestly, that's probably true sometimes. HAHAHA.</p>
+      <p>But I hope you eventually become comfortable enough with me to tell me when something is wrong.</p>
+      <p>Not because I need to know every single thing happening inside your head.</p>
+      <p>You don't owe me every thought.</p>
+      <p>I just want you to know that if something is bothering you, you can tell me.</p>
+      <p>And if you're not ready, I'll respect that too.</p>
+      <p>I don't want to interrogate you into vulnerability.</p>
+      <p>I just want you to know there's a place where you can say:</p>
+      <p><i>“I'm not okay today.”</i></p>
+      <p>And you won't have to explain everything immediately.</p>
+    `
+  },
+  14: {
+    title: "I Can't Carry Everything for You",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>This one is probably not the prettiest letter.</p>
+      <p>Because loving someone doesn't mean I can carry everything they're carrying.</p>
+      <p>I worry about you.</p>
+      <p>I really do.</p>
+      <p>I pray for you sometimes. I ask God to guide you through the things you can't say out loud.</p>
+      <p>And I want you to take care of yourself.</p>
+      <p>But I've also realized something.</p>
+      <p>Your pain cannot become my entire responsibility.</p>
+      <p>I can't fix everything happening inside your head.</p>
+      <p>I can't make your past disappear.</p>
+      <p>I can't guarantee that your future will suddenly become brighter just because I'm beside you.</p>
+      <p>I wish I could.</p>
+      <p>But I can't.</p>
+      <p>What I can do is stay beside you when I can.</p>
+      <p>Listen when you want to talk.</p>
+      <p>Remind you of the good things you forget about yourself.</p>
+      <p>And also be honest when something is hurting me.</p>
+      <p>Because I don't want either of us to become cruel to ourselves because of this relationship.</p>
+      <p>I love being someone you can lean on.</p>
+      <p>I just don't want to become the only thing holding you up.</p>
+      <p>You deserve support from more than one person.</p>
+      <p>And I deserve that too.</p>
+      <p>I want us to make each other stronger—not become each other's entire world.</p>
+    `
+  },
+  15: {
+    title: "Please Don't Be Mean to Yourself Because of Me",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I need you to know something.</p>
+      <p>Please don't be mean to yourself because of me.</p>
+      <p>If I go quiet, ask me.</p>
+      <p>If I misunderstand you, tell me.</p>
+      <p>If I hurt you, tell me.</p>
+      <p>If you're upset with me, I would rather hear it from you than feel like you're punishing yourself because you don't know how to say it.</p>
+      <p>Sometimes I notice the little things.</p>
+      <p>Like when something seems wrong but you don't say it directly.</p>
+      <p>Or when you post something that feels like a <i>parinig.</i></p>
+      <p>And sometimes I want to ask, “Is this about me?”</p>
+      <p>But I don't want to force you to talk before you're ready.</p>
+      <p>I just hope that, eventually, you'll feel safe enough to tell me directly.</p>
+      <p>Because I don't want us to become two people constantly guessing what the other one is feeling.</p>
+      <p>I want us to be able to say:</p>
+      <p><i>“Hey, that hurt.”</i></p>
+      <p><i>“Hey, I'm scared.”</i></p>
+      <p><i>“Hey, I need reassurance.”</i></p>
+      <p><i>“Hey, I need space.”</i></p>
+      <p>Without thinking that honesty automatically means the relationship is ending.</p>
+      <p>I want the kind of connection where difficult conversations don't scare us away from each other.</p>
+    `
+  },
+  16: {
+    title: "The Quiz I Didn't Study For",
+    content: `
+      <p>Happy birthday, baby.</p>
+      <p>I know this seems like such a random thing to put in your birthday letters.</p>
+      <p>But I remember that quiz.</p>
+      <p>Because I didn't study.</p>
+      <p>And I failed.</p>
+      <p>And honestly, I was disappointed in myself before you even said anything.</p>
+      <p>Then you gave me the realistic/practical comments you always give.</p>
+      <p>You told me you knew I was smart back in Grade 11 because your cousin was my classmate.</p>
+      <p>And part of me appreciated that so much.</p>
+      <p>But another part of me felt pressured.</p>
+      <p>Because what if you expect that version of me and I can't become her again?</p>
+      <p>What if you think I'm smart and then I keep disappointing you?</p>
+      <p>I think that's why I went quiet.</p>
+      <p>I wasn't mad at you.</p>
+      <p>I was something close to mad, but I think it was more like I was overwhelmed, disappointed in myself, and really tired.</p>
+      <p>Nangibabaw talaga yung fatigue ko that day.</p>
+      <p>I didn't know how to process it.</p>
+      <p>And I'm sorry if I made you feel like I was pulling away.</p>
+      <p>I wasn't.</p>
+      <p>I just didn't know how to be around someone I cared about while feeling disappointed in myself.</p>
+      <p>But I also want you to know that I appreciated your honesty.</p>
+      <p>I don't want someone who only tells me I'm doing great when I'm not.</p>
+      <p>I just need to learn how to hear honesty without turning it into proof that I'm not enough.</p>
+    `
+  },
+  17: {
+    title: "Sorry I Went Quiet",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>Hi.</p>
+      <p>I'm sorry.</p>
+      <p>I fell asleep that time and kagigising ko lang.</p>
+      <p>Sorry for going quiet. I didn't mean to make you worry or make you feel like I was pulling away.</p>
+      <p>Honestly, hindi ko rin fully ma-explain what I was feeling.</p>
+      <p>I was something close to mad, but I think it was more like I was overwhelmed, disappointed in myself, and really tired.</p>
+      <p>Nangibabaw pa yung fatigue ko kanina kaya I didn't really know how to process or express what I was feeling.</p>
+      <p>I wasn't mad at you, okay?</p>
+      <p>I just needed a little time to breathe and understand myself.</p>
+      <p>And I remember how you reassured me.</p>
+      <p>You told me you'd stay.</p>
+      <p>You told me you didn't want me to pressure myself.</p>
+      <p>You said you enjoyed talking and laughing with me and looked forward to talking again.</p>
+      <p>And that meant a lot.</p>
+      <p>Because you could've easily assumed the worst.</p>
+      <p>Instead, you reassured me.</p>
+      <p>I don't think you know how much I noticed that.</p>
+      <p>So if there are times when I go quiet, I hope eventually you know that silence doesn't automatically mean I'm leaving.</p>
+      <p>Sometimes I'm just trying to understand myself before I talk.</p>
+    `
+  },
+  18: {
+    title: "Us, Doing Our Own Things Together",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I think some of my favorite memories of us aren't even big moments.</p>
+      <p>They're the stupid ordinary ones.</p>
+      <p>Those nights when we're both on the phone.</p>
+      <p>You're doing your agendas.</p>
+      <p>I'm studying.</p>
+      <p>We're both doing our own side quests.</p>
+      <p>Sometimes we're talking.</p>
+      <p>Sometimes we're not.</p>
+      <p>Then suddenly it's already morning and we both have school at 7.</p>
+      <p>Like... why were we awake???</p>
+      <p>But somehow I loved it.</p>
+      <p>During prelims, you were there while I studied.</p>
+      <p>I shared my results with you whether I did badly or did well.</p>
+      <p>And you were there.</p>
+      <p>You became part of those little academic moments without even trying.</p>
+      <p>And I think that's why I appreciate you so much.</p>
+      <p>Not just because you make me feel things.</p>
+      <p>But because you've become part of ordinary life.</p>
+      <p>The boring parts.</p>
+      <p>The tiring parts.</p>
+      <p>The “I'm doing homework and you're doing your own thing” parts.</p>
+      <p>The random reels.</p>
+      <p>The memes.</p>
+      <p>The asking how your day went.</p>
+      <p>The silent calls.</p>
+      <p>The random stories.</p>
+      <p>The little <i>“baby”</i> here and there.</p>
+      <p>Those things don't sound like much when written down.</p>
+      <p>But they mean something to me.</p>
+      <p>Because sometimes love isn't a grand moment.</p>
+      <p>Sometimes it's just,</p>
+      <p><i>“You're doing your thing? Okay. I'll stay here while I do mine.”</i></p>
+    `
+  },
+  19: {
+    title: "I Don't Know What We'll Become",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>I don't know what we're going to become.</p>
+      <p>And honestly, that scares me.</p>
+      <p>We're still young.</p>
+      <p>We've only known each other for such a short time.</p>
+      <p>I don't know what we'll be like months from now.</p>
+      <p>I don't know if we'll still call every night.</p>
+      <p>I don't know what school will do to us.</p>
+      <p>I don't know what life will do to us.</p>
+      <p>And sometimes I wish I could just know.</p>
+      <p>I wish I could know that you'll stay.</p>
+      <p>I wish I could know that you won't get tired.</p>
+      <p>I wish I could know that I'll still be someone you want to talk to when the excitement becomes ordinary.</p>
+      <p>But I can't know that.</p>
+      <p>And maybe that's okay.</p>
+      <p>Because I don't want to love you based on a future I haven't seen yet.</p>
+      <p>I want to appreciate what we actually have.</p>
+      <p>Right now, you're someone who makes me laugh.</p>
+      <p>Someone who makes me think.</p>
+      <p>Someone who brought back a part of me I thought I'd lost.</p>
+      <p>Someone I admire.</p>
+      <p>Someone I worry about.</p>
+      <p>Someone I want to know more deeply.</p>
+      <p>And whatever happens later, I'm glad this happened.</p>
+      <p>I'm glad I met you.</p>
+      <p>I'm glad that the person I used to admire from far away became someone I got to actually know.</p>
+      <p>So no, I don't know what we'll become.</p>
+      <p>But I hope we give ourselves enough time to find out.</p>
+    `
+  },
+  20: {
+    title: "Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly.",
+    content: `
+      <p>Happy birthday, Xander.</p>
+      <p>Okay.</p>
+      <p>This is the last one.</p>
+      <p>And honestly, I don't even know how to end twenty letters without sounding dramatic. HAHAHA.</p>
+      <p>I started writing these because I wanted to give you something on your birthday.</p>
+      <p>But somewhere along the way, I realized I wasn't just writing about you.</p>
+      <p>I was leaving little pieces of myself here too.</p>
+      <p>You got to meet the girl who had a crush on you before you even knew her.</p>
+      <p>The girl who was intimidated by your brain.</p>
+      <p>The girl who gets attached and then immediately overthinks that she's getting attached too fast.</p>
+      <p>The girl who worries when you disappear.</p>
+      <p>The girl who sometimes goes quiet when she's overwhelmed.</p>
+      <p>The girl who gets disappointed in herself over school.</p>
+      <p>The girl who is still trying to find the academic spark she used to have.</p>
+      <p>The girl who has things she's ashamed of.</p>
+      <p>The girl who has made mistakes.</p>
+      <p>The girl who is scared that if someone sees everything, they'll eventually decide she's not enough.</p>
+      <p>But you also got to meet the girl who laughs at stupid things.</p>
+      <p>The girl who loves literature.</p>
+      <p>The girl who likes listening to you even when you're not saying anything particularly important.</p>
+      <p>The girl who loves random reels and stupid memes.</p>
+      <p>The girl who can spend hours on a call without needing constant conversation.</p>
+      <p>The girl who wants to become more.</p>
+      <p>The girl who wants to be someone you admire, not just someone you're attracted to.</p>
+      <p>And maybe most importantly, the girl who really, genuinely admires you.</p>
+      <p>I admire your mind.</p>
+      <p>Your way of thinking.</p>
+      <p>Your softness.</p>
+      <p>Your empathy.</p>
+      <p>Your strength.</p>
+      <p>Your weirdness.</p>
+      <p>Your complicated parts.</p>
+      <p>Your ability to make me think about things differently.</p>
+      <p>I admire the person you are now, but I also understand that you're still becoming someone.</p>
+      <p>And so am I.</p>
+      <p>I don't want to promise you that I'll fix your future.</p>
+      <p>I can't.</p>
+      <p>I don't want to promise that we'll never hurt each other.</p>
+      <p>We probably will sometimes.</p>
+      <p>I don't want to promise that everything will always be easy.</p>
+      <p>It won't.</p>
+      <p>What I can say is that I want to be honest with you.</p>
+      <p>I want to know you.</p>
+      <p>I want you to know me.</p>
+      <p>I want us to be able to tell each other when we're scared, when we're hurt, when we're happy, when we're proud, when we're confused.</p>
+      <p>I want us to grow without making each other feel like we're not enough.</p>
+      <p>And baby, I hope you know this:</p>
+      <p><strong>you didn't create my spark.</strong></p>
+      <p>You reminded me it was there.</p>
+      <p>You didn't save me.</p>
+      <p>But you made me want to take better care of the person I was becoming.</p>
+      <p>You didn't make my life perfect.</p>
+      <p>You just became one of the reasons I started looking forward to parts of it again.</p>
+      <p>And I don't think you realize how much that means to me.</p>
+      <p>So, happy birthday.</p>
+      <p>Happy birthday to the boy I used to only know from afar.</p>
+      <p>Happy birthday to the person who somehow became someone I can talk to until morning.</p>
+      <p>Happy birthday to someone who made me believe that maybe love doesn't have to start perfectly to become something meaningful.</p>
+      <p>Happy birthday, Xander.</p>
+      <p>I hope you know how loved you are—not just by me, but by the people who genuinely care about you.</p>
+      <p>And I hope you learn to see yourself with some of the kindness you give other people.</p>
+      <p>Take care of yourself, okay?</p>
+      <p>Please.</p>
+      <p>There's still so much life ahead of you.</p>
+      <p>So many things you haven't tried.</p>
+      <p>So many versions of yourself you haven't met.</p>
+      <p>And if I'm lucky enough to still be beside you while some of those versions appear, then I'd be really grateful.</p>
+      <p>But for today, no overthinking.</p>
+      <p>It's your birthday.</p>
+      <p>So just let yourself be celebrated.</p>
+      <p>Let yourself be happy.</p>
+      <p>Let yourself feel loved.</p>
+      <p>And let me have this one day where I get to tell you everything I've been too shy, too scared, or too chaotic to say properly.</p>
+      <p>I love you.</p>
+      <p>And yes, I know we've only just begun.</p>
+      <p>That's why I'm not asking the future for answers yet.</p>
+      <p>I'm just really, really grateful that the beginning happened.</p>
+      <p><strong>Happy birthday, baby.</strong></p>
+      <p>— Jazz</p>
+    `
+  }
 };
 
+// Compatibility with the existing website renderer.
+const L = Object.keys(letters).sort((a,b) => Number(a)-Number(b)).map((key) => {
+  const letter = letters[key];
+  return [letter.title, `letter ${key} of 20`, letter.content];
+});
 
-let currentLetter = 1;
-
-
-function openLetters() {
-
-    document.getElementById("letters")
-        .scrollIntoView({
-            behavior: "smooth"
-        });
-
+function showList(){
+  home.style.display='none';
+  read.style.display='none';
+  list.style.display='block';
+  cards.innerHTML=L.map((x,i)=>`<button class="item" onclick="openL(${i})"><b>${x[0]}</b><small>${x[1]}</small></button>`).join('');
 }
 
-
-function openLetter(number) {
-
-    currentLetter = number;
-
-    document.getElementById("letters")
-        .style.display = "none";
-
-    document.getElementById("home")
-        .style.display = "none";
-
-    document.getElementById("reader")
-        .classList.add("active");
-
-    showLetter(number);
-
-}
-
-
-function showLetter(number) {
-
-    const letter = letters[number];
-
-    document.getElementById("letterNumber")
-        .textContent = "LETTER " + String(number).padStart(2, "0");
-
-    document.getElementById("letterTitle")
-        .textContent = letter.title;
-
-    document.getElementById("letterContent")
-        .innerHTML = letter.content;
-
-    window.scrollTo(0, 0);
-
-}
-
-
-function closeLetter() {
-
-    document.getElementById("reader")
-        .classList.remove("active");
-
-    document.getElementById("letters")
-        .style.display = "block";
-
-    document.getElementById("home")
-        .style.display = "flex";
-
-    document.getElementById("letters")
-        .scrollIntoView({
-            behavior: "smooth"
-        });
-
-}
-
-
-function nextLetter() {
-
-    if (currentLetter < 12) {
-        currentLetter++;
-        showLetter(currentLetter);
-    }
-
-}
-
-
-function previousLetter() {
-
-    if (currentLetter > 1) {
-        currentLetter--;
-        showLetter(currentLetter);
-    }
-
+function openL(i){
+  list.style.display='none';
+  home.style.display='none';
+  read.style.display='block';
+  read.innerHTML=`<article class="letter"><button onclick="showList()">← All letters</button><h2>${L[i][0]}</h2><div style="color:#68736b;font:13px system-ui">${L[i][1]}</div><div>${L[i][2]}</div><div class="nav"><button onclick="openL(${(i+L.length-1)%L.length})">← Previous</button><button onclick="openL(${(i+1)%L.length})">Next →</button></div></article>`;
+  scrollTo(0,0);
 }
