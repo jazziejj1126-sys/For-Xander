@@ -1,512 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For My Dearest Jhan Xander</title>
+  <title>Letters for Xander ♡</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        body {
-            font-family: Georgia, "Times New Roman", serif;
-            background: #f8f1ec;
-            color: #4b3a35;
-            min-height: 100vh;
-        }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f8f1e7;
+      color: #4b3832;
+      line-height: 1.7;
+    }
 
-        button {
-            font-family: inherit;
-        }
+    button {
+      font-family: inherit;
+      cursor: pointer;
+    }
 
-        /* =========================
-           COVER
-        ========================= */
+    /* =========================
+       COVER
+    ========================= */
 
-        .cover {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 30px;
-            background:
-                radial-gradient(circle at top left, #f5ddd7, transparent 40%),
-                radial-gradient(circle at bottom right, #ead8d0, transparent 40%),
-                #f8f1ec;
-        }
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
 
-        .cover-content {
-            max-width: 700px;
-        }
+    .cover h1 {
+      font-size: 42px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
 
-        .small-text {
-            font-size: 13px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin-bottom: 25px;
-            color: #987a70;
-        }
+    .cover p {
+      font-size: 17px;
+      color: #765c50;
+      margin-bottom: 30px;
+    }
 
-        .cover h1 {
-            font-size: clamp(40px, 8vw, 80px);
-            font-weight: normal;
-            line-height: 1.05;
-            color: #4b3a35;
-            margin-bottom: 20px;
-        }
+    .open-button {
+      border: none;
+      background: #6f4e45;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
 
-        .cover h2 {
-            font-size: clamp(20px, 4vw, 30px);
-            font-weight: normal;
-            font-style: italic;
-            margin-bottom: 25px;
-            color: #80635a;
-        }
+    .open-button:hover {
+      background: #5c4039;
+      transform: scale(1.05);
+    }
 
-        .cover p {
-            max-width: 560px;
-            margin: 0 auto 35px;
-            line-height: 1.8;
-            font-size: 16px;
-            color: #765f57;
-        }
+    /* =========================
+       COLLECTION
+    ========================= */
 
-        .open-button {
-            border: none;
-            background: #80635a;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 30px;
-            font-size: 15px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
+    .collection {
+      display: none;
+      min-height: 100vh;
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
 
-        .open-button:hover {
-            transform: translateY(-3px);
-            background: #624b44;
-        }
+    .collection h1 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
 
+    .collection-subtitle {
+      text-align: center;
+      color: #765c50;
+      margin-bottom: 40px;
+    }
 
-        /* =========================
-           COLLECTION
-        ========================= */
+    .letters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
 
-        .collection {
-            display: none;
-            min-height: 100vh;
-            padding: 70px 25px;
-            max-width: 1100px;
-            margin: auto;
-        }
+    .letter-card {
+      width: 100%;
+      border: 1px solid #d8c5b8;
+      background: #fffaf4;
+      color: #4b3832;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: left;
+      transition: 0.3s;
+    }
 
-        .collection-header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+    .letter-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(75, 56, 50, 0.12);
+    }
 
-        .collection-header p {
-            color: #987a70;
-            font-size: 13px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 12px;
-        }
+    .letter-card span {
+      display: block;
+      color: #a27b6d;
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
 
-        .collection-header h1 {
-            font-size: clamp(35px, 6vw, 55px);
-            font-weight: normal;
-            margin-bottom: 15px;
-        }
+    .letter-card strong {
+      font-size: 17px;
+      font-weight: normal;
+    }
 
-        .collection-header span {
-            color: #80635a;
-            font-style: italic;
-        }
+    /* =========================
+       READER
+    ========================= */
 
-        .letters-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 20px;
-        }
+    .reader {
+      display: none;
+      min-height: 100vh;
+      max-width: 800px;
+      margin: auto;
+      padding: 30px 20px 60px;
+    }
 
-        .letter-card {
-            background: #fffaf7;
-            border: 1px solid #eadbd4;
-            border-radius: 15px;
-            padding: 25px;
-            min-height: 150px;
-            text-align: left;
-            cursor: pointer;
-            transition: 0.3s;
-            color: #4b3a35;
-        }
+    .back {
+      border: none;
+      background: transparent;
+      color: #765c50;
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
 
-        .letter-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(80, 55, 45, 0.12);
-        }
+    .paper {
+      background: #fffaf4;
+      padding: 45px;
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(75, 56, 50, 0.1);
+    }
 
-        .letter-card span {
-            display: block;
-            font-size: 12px;
-            letter-spacing: 2px;
-            color: #aa8a7e;
-            margin-bottom: 15px;
-        }
+    .letter-number {
+      color: #a27b6d;
+      font-size: 13px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
 
-        .letter-card strong {
-            display: block;
-            font-size: 18px;
-            font-weight: normal;
-            line-height: 1.4;
-        }
+    .paper h2 {
+      font-size: 30px;
+      font-weight: normal;
+      line-height: 1.3;
+      margin-bottom: 30px;
+    }
 
+    #letterContent p {
+      margin-bottom: 20px;
+    }
 
-        /* =========================
-           READER
-        ========================= */
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+    }
 
-        .reader {
-            display: none;
-            min-height: 100vh;
-            padding: 30px 20px 60px;
-            max-width: 850px;
-            margin: auto;
-        }
+    .navigation button {
+      border: none;
+      background: #6f4e45;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-size: 14px;
+    }
 
-        .back {
-            border: none;
-            background: transparent;
-            color: #80635a;
-            font-size: 14px;
-            cursor: pointer;
-            margin-bottom: 35px;
-        }
+    .navigation button:hover {
+      background: #5c4039;
+    }
 
-        .back:hover {
-            text-decoration: underline;
-        }
+    /* =========================
+       MOBILE
+    ========================= */
 
-        .paper {
-            background: #fffdfb;
-            padding: clamp(30px, 7vw, 70px);
-            border-radius: 5px;
-            box-shadow: 0 10px 40px rgba(70, 45, 35, 0.08);
-            line-height: 1.9;
-        }
+    @media (max-width: 600px) {
 
-        .letter-number {
-            font-size: 12px;
-            letter-spacing: 3px;
-            color: #aa8a7e;
-            margin-bottom: 20px;
-        }
+      .cover h1 {
+        font-size: 32px;
+      }
 
-        .paper h2 {
-            font-size: clamp(30px, 6vw, 48px);
-            font-weight: normal;
-            line-height: 1.2;
-            margin-bottom: 35px;
-            color: #4b3a35;
-        }
+      .cover p {
+        font-size: 15px;
+      }
 
-        #letterContent p {
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
+      .collection h1 {
+        font-size: 30px;
+      }
 
-        .navigation {
-            display: flex;
-            justify-content: space-between;
-            gap: 15px;
-            margin-top: 30px;
-        }
+      .letters-grid {
+        grid-template-columns: 1fr;
+      }
 
-        .navigation button {
-            border: 1px solid #d9c6bd;
-            background: #fffaf7;
-            color: #80635a;
-            padding: 12px 20px;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
+      .paper {
+        padding: 25px;
+      }
 
-        .navigation button:hover {
-            background: #80635a;
-            color: white;
-        }
-
-
-        /* =========================
-           MOBILE
-        ========================= */
-
-        @media (max-width: 600px) {
-
-            .cover {
-                padding: 25px;
-            }
-
-            .cover h1 {
-                font-size: 42px;
-            }
-
-            .cover h2 {
-                font-size: 22px;
-            }
-
-            .collection {
-                padding: 50px 20px;
-            }
-
-            .letters-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .paper {
-                padding: 30px 22px;
-            }
-
-            .navigation {
-                flex-direction: column;
-            }
-
-            .navigation button {
-                width: 100%;
-            }
-        }
-    </style>
+      .paper h2 {
+        font-size: 25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-    <!-- =========================
-         COVER PAGE
-    ========================= -->
+  <!-- =========================
+       COVER
+  ========================= -->
 
-    <section class="cover" id="home">
+  <section class="cover" id="home">
 
-        <div class="cover-content">
+    <h1>letters i never knew to say</h1>
 
-            <div class="small-text">
-                A little corner of my heart
-            </div>
+    <p>
+      For Xander, with all the words I couldn't always say out loud. ♡
+    </p>
 
-            <h1>
-                A LITTLE CORNER<br>
-                OF MY HEART
-            </h1>
+    <button class="open-button" onclick="openLetters()">
+      Open your letters ♡
+    </button>
 
-            <h2>
-                For My Dearest Jhan Xander
-            </h2>
-
-            <p>
-                somethings are easier to write than to say out loud,
-                so i put them here, one letter at a time.
-            </p>
-
-            <button
-                class="open-button"
-                onclick="openLetters()">
-                Open your letters ♡
-            </button>
-
-        </div>
-
-    </section>
+  </section>
 
 
-    <!-- =========================
-         LETTER COLLECTION
-    ========================= -->
+  <!-- =========================
+       LETTER COLLECTION
+  ========================= -->
 
-    <section class="collection" id="letters">
+  <section class="collection" id="letters">
 
-        <div class="collection-header">
+    <h1>Letters for You ♡</h1>
 
-            <p>For you</p>
+    <p class="collection-subtitle">
+      Twenty letters, written just for you.
+    </p>
 
-            <h1>
-                Letters I want you to have
-            </h1>
+    <div class="letters-grid">
 
-            <span>
-                every letter holds a little piece of me.
-            </span>
+      <button class="letter-card" onclick="openLetter(1)">
+        <span>LETTER 01</span>
+        <strong>Before I Knew You</strong>
+      </button>
 
-        </div>
+      <button class="letter-card" onclick="openLetter(2)">
+        <span>LETTER 02</span>
+        <strong>That Random Night on Live</strong>
+      </button>
 
+      <button class="letter-card" onclick="openLetter(3)">
+        <span>LETTER 03</span>
+        <strong>I Think I Got Attached Too Fast</strong>
+      </button>
 
-        <div class="letters-grid">
+      <button class="letter-card" onclick="openLetter(4)">
+        <span>LETTER 04</span>
+        <strong>The Things I Notice About You</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(1)">
-                <span>LETTER 01</span>
-                <strong>Before I Knew You</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(5)">
+        <span>LETTER 05</span>
+        <strong>Do You Know How Attractive Your Mind Is?</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(2)">
-                <span>LETTER 02</span>
-                <strong>The Way You Make Me Feel</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(6)">
+        <span>LETTER 06</span>
+        <strong>The Quiet Calls</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(3)">
-                <span>LETTER 03</span>
-                <strong>Things I Never Say</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(7)">
+        <span>LETTER 07</span>
+        <strong>You Didn't Create My Spark</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(4)">
-                <span>LETTER 04</span>
-                <strong>A Letter For You</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(8)">
+        <span>LETTER 08</span>
+        <strong>Are You Out of My League?</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(5)">
-                <span>LETTER 05</span>
-                <strong>Little Things</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(9)">
+        <span>LETTER 09</span>
+        <strong>Do You Like Me as a Whole?</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(6)">
-                <span>LETTER 06</span>
-                <strong>What You Mean To Me</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(10)">
+        <span>LETTER 10</span>
+        <strong>We Were Both Scared of the Same Thing</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(7)">
-                <span>LETTER 07</span>
-                <strong>If I Could Tell You</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(11)">
+        <span>LETTER 11</span>
+        <strong>There Are Things About Me I Still Don't Know How to Tell You</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(8)">
-                <span>LETTER 08</span>
-                <strong>The Things I Remember</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(12)">
+        <span>LETTER 12</span>
+        <strong>The Girl Before You</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(9)">
-                <span>LETTER 09</span>
-                <strong>Something About Us</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(13)">
+        <span>LETTER 13</span>
+        <strong>When You Go Quiet</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(10)">
-                <span>LETTER 10</span>
-                <strong>Wherever We Go</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(14)">
+        <span>LETTER 14</span>
+        <strong>I Can't Carry Everything For You</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(11)">
-                <span>LETTER 11</span>
-                <strong>To My Favorite Person</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(15)">
+        <span>LETTER 15</span>
+        <strong>Please Don't Be Mean to Yourself Because of Me</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(12)">
-                <span>LETTER 12</span>
-                <strong>The Girl Before You</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(16)">
+        <span>LETTER 16</span>
+        <strong>The Quiz I Didn't Study For</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(13)">
-                <span>LETTER 13</span>
-                <strong>When You Go Quiet</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(17)">
+        <span>LETTER 17</span>
+        <strong>Sorry I Went Quiet</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(14)">
-                <span>LETTER 14</span>
-                <strong>For The Days You Doubt</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(18)">
+        <span>LETTER 18</span>
+        <strong>Us, Doing Our Own Things Together</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(15)">
-                <span>LETTER 15</span>
-                <strong>Stay</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(19)">
+        <span>LETTER 19</span>
+        <strong>I Don't Know What We'll Become</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(16)">
-                <span>LETTER 16</span>
-                <strong>Things I Love About You</strong>
-            </button>
+      <button class="letter-card" onclick="openLetter(20)">
+        <span>LETTER 20</span>
+        <strong>Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly.</strong>
+      </button>
 
-            <button class="letter-card" onclick="openLetter(17)">
-                <span>LETTER 17</span>
-                <strong>My Safe Place</strong>
-            </button>
+    </div>
 
-            <button class="letter-card" onclick="openLetter(18)">
-                <span>LETTER 18</span>
-                <strong>If You Ever Wonder</strong>
-            </button>
-
-            <button class="letter-card" onclick="openLetter(19)">
-                <span>LETTER 19</span>
-                <strong>Thank You For Being You</strong>
-            </button>
-
-            <button class="letter-card" onclick="openLetter(20)">
-                <span>LETTER 20</span>
-                <strong>Always, Me</strong>
-            </button>
-
-        </div>
-
-    </section>
+  </section>
 
 
-    <!-- =========================
-         LETTER READER
-    ========================= -->
+  <!-- =========================
+       LETTER READER
+  ========================= -->
 
-    <section class="reader" id="reader">
+  <section class="reader" id="reader">
 
-        <button
-            class="back"
-            onclick="closeLetter()">
-            ← back to collection
-        </button>
+    <button class="back" onclick="closeLetter()">
+      ← Back to collection
+    </button>
 
+    <div class="paper">
 
-        <div class="paper">
+      <p class="letter-number" id="letterNumber">
+        LETTER 01
+      </p>
 
-            <p
-                class="letter-number"
-                id="letterNumber">
-                LETTER 01
-            </p>
+      <h2 id="letterTitle">
+        Before I Knew You
+      </h2>
 
-            <h2 id="letterTitle">
-                Before I Knew You
-            </h2>
+      <div id="letterContent">
+        <p>Your letter will appear here.</p>
+      </div>
 
-            <div id="letterContent">
-                <p>
-                    Your letter will appear here.
-                </p>
-            </div>
+    </div>
 
-        </div>
+    <div class="navigation">
 
+      <button onclick="previousLetter()">
+        ← Previous
+      </button>
 
-        <div class="navigation">
+      <button onclick="nextLetter()">
+        Next →
+      </button>
 
-            <button onclick="previousLetter()">
-                ← Previous
-            </button>
+    </div>
 
-            <button onclick="nextLetter()">
-                Next →
-            </button>
-
-        </div>
-
-    </section>
+  </section>
 
 
-    <!-- =========================
-         YOUR SCRIPT
-    ========================= -->
+  <!-- =========================
+       SCRIPT
+  ========================= -->
 
-    <script src="script.js?v=2"></script>
+  <script src="./script.js?v=3"></script>
 
 </body>
 </html>
