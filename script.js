@@ -1,17 +1,22 @@
+// ===============================
+// LETTERS
+// ===============================
+
+const letters = {
 const letters = {
   1: {
     title: "Before I Knew You",
     content: `
       <p>Happy birthday, Xander.</p>
       <p>Before anything else, I think it's funny how you were already a person in my head long before you actually knew I existed.</p>
-      <p>Late 2024 pa lang, I already knew about you. Hindi naman yung tipong super obsessed ako or anything. It was more like a happy crush. Yung crush na you admire from afar kasi may narinig ka na may ine-entertain na siyang iba, so obviously, ano bang gagawin ko? HAHAHA. Nothing.</p>
+      <p>Late 2024 pa lang, I already knew about you. Hindi naman yung tipong super obsessed ako or anything. It was more like a happy crush. Yung crush na you admire from afar kasi may narinig ka na may ine-entertain na siyang iba, so obviously, ano bang gagawin ko? HAHAHA. Nothing.</.</p>
       <p>You didn't even know me.</p>
       <p>I just knew you existed.</p>
-      <p>I remember that little interaction you had with my friend. Ang liit lang naman niyang bagay, pero somehow I remembered it. I think that's how it started. I didn't know you personally, but there was already something about you that made me curious.</p>
+      <p>I remember that little interaction you had with my friend. Ang liit lang naman niyang bagay, pero somehow I remembered it. I think that's how it started. I didn't know you personally, but there was already something about you that made me curious.</.</p>
       <p>And now I'm writing twenty letters for your birthday.</p>
       <p>Like... what happened???</p>
       <p>It's actually crazy to think about.</p>
-      <p>The person I used to just look at from afar became someone I talk to until morning. Someone I call baby. Someone I worry about. Someone whose random stories about his day I actually want to hear. Someone who somehow became important to me in such a short amount of time.</p>
+      <p>The person I used to just look at from afar became someone I talk to until morning. Someone I call baby. Someone I worry about. Someone whose random stories about his day I actually want to hear. Someone who somehow became important to me in such a short amount of time.</.</p>
       <p>You didn't know me then.</p>
       <p>And you definitely didn't know that someday, I'd be sitting here trying to find the right words for you.</p>
       <p>Happy birthday to the boy I once only knew from a distance.</p>
@@ -19,6 +24,7 @@ const letters = {
       <p>And I'm really glad I did.</p>
     `
   },
+
   2: {
     title: "That Random Night on Live",
     content: `
@@ -33,7 +39,7 @@ const letters = {
       <p>And then somehow...</p>
       <p>we just kept talking.</p>
       <p>Until morning.</p>
-      <p>I remember thinking you're actually so charming. You're funny, witty, articulate, and your vocabulary is insane. HAHAHA. I was genuinely intimidated by you.</p>
+      <p>I remember thinking you're actually so charming. You're funny, witty, articulate, and your vocabulary is insane. HAHAHA.</. I was genuinely intimidated by you.</p>
       <p>Parang, “Okay... bakit ang lawak ng pag-iisip nito?”</p>
       <p>And I think that was one of the first things that really attracted me to you—not just your face, but your mind.</p>
       <p>You had this way of talking that made me want to keep listening.</p>
@@ -42,6 +48,8 @@ const letters = {
       <p>But then Sept. 5 came.</p>
       <p>And we started talking.</p>
       <p>And then suddenly you're here, in these letters.</p>
+    `
+  },
       <p>It's funny how one random night can quietly change the direction of things.</p>
       <p>I don't think either of us knew what we were starting.</p>
     `
@@ -57,7 +65,7 @@ const letters = {
       <p>Sometimes I literally stop and think, “Girl, calm down. You just met him.”</p>
       <p>And I know that.</p>
       <p>That's why I've questioned myself a lot.</p>
-      <p>Is this real? Is this just infatuation? Do I like you because you're the person who's here right now? Am I getting attached because everything happened so suddenly?</p>
+      <p>Is this real? Is this just infatuation? Do I like you because you're the person who's here right now?</? Am I getting attached because everything happened so suddenly?</p>
       <p>I don't have all the answers.</p>
       <p>And I don't want to pretend that I do.</p>
       <p>I just know that I like talking to you.</p>
@@ -78,13 +86,14 @@ const letters = {
       <p>And I'm really happy that you're here.</p>
     `
   },
+
   4: {
     title: "The Things I Notice About You",
     content: `
       <p>Happy birthday, baby.</p>
       <p>I don't think I tell you enough how much I admire you.</p>
       <p>And no, I'm not talking about your looks.</p>
-      <p>Obviously you're pretty. You're attractive. I know that. HAHAHA. But honestly, I hope pretty becomes one of the least interesting things you know I notice about you.</p>
+      <p>Obviously you're pretty. You're attractive. I know that. HAHAHA. But honestly, I hope pretty becomes one of the least interesting things you know I notice about you.</.</p>
       <p>I notice your mind.</p>
       <p>I notice how broad your thinking is.</p>
       <p>I notice how you can take something I say jokingly and somehow respond to it in a way that's actually thoughtful.</p>
@@ -102,6 +111,8 @@ const letters = {
       <p>You make me want to expand.</p>
       <p>You make me want to learn more.</p>
       <p>You make me want to have deeper conversations.</p>
+    `
+  },
       <p>And that's something I don't think I could ever reduce to just “he's cute.”</p>
       <p>You're so much more interesting than that.</p>
     `
@@ -120,9 +131,12 @@ const letters = {
       <p>I want us to be able to talk about things and actually learn from each other.</p>
       <p>And maybe that's why your mind attracted me so much.</p>
       <p>You make me think.</p>
+      <p>You make me curious.</think.</p>
       <p>You make me curious.</p>
       <p>You made me realize that I want someone who can actually meet me somewhere deeper than appearance.</p>
       <p>And I hope I can be that person for you too.</p>
+    `
+  },
       <p>Not someone who always has the smartest answer.</p>
       <p>Not someone who's always impressive.</p>
       <p>Just someone you genuinely enjoy having beside you.</p>
@@ -141,7 +155,7 @@ const letters = {
       <p>There are calls where I'm muted and I'm just listening.</p>
       <p>There are sleep calls.</p>
       <p>There are times we're both doing completely different things.</p>
-      <p>You're doing your agendas, I'm doing my schoolwork, we're both on our phones doing side quests, and technically we're not even having a proper conversation.</p>
+      <p>You're doing your agendas, I'm doing my schoolwork, we're both on our phones doing side quests, and technically we're not even having a proper conversation.</.</p>
       <p>But I still like it.</p>
       <p>Your presence is enough sometimes.</p>
       <p>And that sounds so simple, but it means a lot to me.</p>
@@ -162,6 +176,7 @@ const letters = {
       <p>And somehow, with you, that feels okay.</p>
     `
   },
+
   7: {
     title: "You Didn't Create My Spark",
     content: `
@@ -187,6 +202,8 @@ const letters = {
       <p>But I also know that the spark is mine.</p>
       <p>So if someday you wonder what you did for me, that's what you did.</p>
       <p>You reminded me that there was still something in me worth bringing back.</p>
+    `
+  },
       <p>And I'll always be grateful for that.</p>
     `
   },
@@ -196,7 +213,7 @@ const letters = {
       <p>Happy birthday, Xander.</p>
       <p>I'm going to be honest.</p>
       <p>Sometimes I think you're out of my league.</p>
-      <p>Not because you're perfect.</p>
+      <p>Not because you're perfect. .</p>
       <p>You're definitely not. HAHAHA.</p>
       <p>But because of the way you think.</p>
       <p>Your personality.</p>
@@ -222,6 +239,7 @@ const letters = {
       <p>I want you to know me.</p>
     `
   },
+
   9: {
     title: "Do You Like Me as a Whole?",
     content: `
@@ -233,7 +251,7 @@ const letters = {
       <p>You were wondering if I'd still like you after seeing everything.</p>
       <p>I was wondering if you'd still like me after seeing everything.</p>
       <p>And I think that's why your question meant so much.</p>
-      <p>Because I don't just like the easy parts of you.</p>
+      <p>Because       <p>I don't just like the easy parts of you.</p>
       <p>I like the way you think.</p>
       <p>Your personality.</p>
       <p>Your softness.</p>
@@ -247,7 +265,9 @@ const letters = {
       <p>And I don't want to pretend that love means automatically understanding every single part of someone.</p>
       <p>But I want to know.</p>
       <p>I want to learn.</p>
-      <p>I want to meet the real you, not some edited version.</p>
+      <p>I want to meet the real you.</      <p>I want to meet the real you, not some edited version.</p>
+    `
+  },
       <p>And I hope you eventually feel the same way about me.</p>
       <p>Because I don't want you to only know the version of me that knows how to be lovable.</p>
       <p>I want you to know me as a whole too.</p>
@@ -277,13 +297,14 @@ const letters = {
       <p>And I hope I have made you feel like you can stay too.</p>
     `
   },
+
   11: {
     title: "There Are Things About Me I Still Don't Know How to Tell You",
     content: `
       <p>Happy birthday, baby.</p>
       <p>I know you've told me things you're ashamed of.</p>
       <p>And I appreciate that more than I probably say.</p>
-      <p>But sometimes I feel guilty because I know things about you that you were brave enough to tell me, while there are still so many things about me that I don't know how to say.</p>
+      <p>But sometimes I feel guilty because I know things about you that you were brave enough to tell me, while there are still so many things about me that I don't know how to say.</      <p>There are still so many things about me that I don't know how to say.</p>
       <p>Not because I don't trust you.</p>
       <p>Sometimes I just don't know how to talk about myself without feeling embarrassed.</p>
       <p>There are things I've done that I knew weren't right.</p>
@@ -302,6 +323,7 @@ const letters = {
       <p>I'm just learning how to let someone see me.</p>
     `
   },
+
   12: {
     title: "The Girl Before You",
     content: `
@@ -327,6 +349,7 @@ const letters = {
       <p>Me.</p>
     `
   },
+
   13: {
     title: "When You Go Quiet",
     content: `
@@ -338,7 +361,7 @@ const letters = {
       <p>That's not what I usually worry about.</p>
       <p>I worry about <strong>you.</strong></p>
       <p>I wonder if you're okay.</p>
-      <p>I wonder if something happened.</p>
+      <p>I wonder if something happenedyou're tired.</p>
       <p>I wonder if you're having a bad day and don't know how to say it.</p>
       <p>Sometimes I wonder if you're simply busy and I'm overthinking everything.</p>
       <p>And honestly, that's probably true sometimes. HAHAHA.</p>
@@ -355,8 +378,27 @@ const letters = {
   },
   14: {
     title: "I Can't Carry Everything for You",
+      <p>I wonder if something happened.</p>
+      <p>Sometimes I just wish you'd tell me you're okay.</p>
+      <p>Not because you owe me constant updates.</p>
+      <p>But because I care about you.</p>
+      <p>That's all.</p>
+    `
+  },
+
+  14: {
+    title: "I Can't Carry Everything For You",
     content: `
       <p>Happy birthday, baby.</p>
+      <p>I want to be someone you can lean on, but I also know I can't carry everything for you.</p>
+      <p>I can listen.</p>
+      <p>I can stay.</p>
+      <p>I can remind you that you're not alone.</p>
+      <p>But I also want you to learn how to carry yourself.</p>
+      <p>Loving you doesn't mean losing myself.</p>
+      <p>And I hope you never feel like you have to lose yourself for me either.</p>
+    `
+  },
       <p>This one is probably not the prettiest letter.</p>
       <p>Because loving someone doesn't mean I can carry everything they're carrying.</p>
       <p>I worry about you.</p>
@@ -386,6 +428,15 @@ const letters = {
     title: "Please Don't Be Mean to Yourself Because of Me",
     content: `
       <p>Happy birthday, Xander.</p>
+      <p>Please don't be too hard on yourself because of me.</p>
+      <p>You don't have to become perfect just to deserve love.</p>
+      <p>You don't have to constantly prove yourself.</p>
+      <p>I want you to be gentle with yourself.</p>
+      <p>You're still learning.</p>
+      <p>I'm still learning too.</p>
+      <p>Let's grow without making each other feel like we're never enough.</p>
+    `
+  },
       <p>I need you to know something.</p>
       <p>Please don't be mean to yourself because of me.</p>
       <p>If I go quiet, ask me.</p>
@@ -412,6 +463,15 @@ const letters = {
     title: "The Quiz I Didn't Study For",
     content: `
       <p>Happy birthday, baby.</p>
+      <p>I still remember that quiz I didn't study for.</p>
+      <p>I was disappointed in myself.</p>
+      <p>But what stayed with me was how much your opinion suddenly mattered to me.</p>
+      <p>You knew I could do better.</p>
+      <p>And honestly, I knew it too.</p>
+      <p>It reminded me that I don't want to waste the abilities I have.</p>
+      <p>So maybe that little quiz taught me something bigger than the lesson itself.</p>
+    `
+  },
       <p>I know this seems like such a random thing to put in your birthday letters.</p>
       <p>But I remember that quiz.</p>
       <p>Because I didn't study.</p>
@@ -440,6 +500,15 @@ const letters = {
     title: "Sorry I Went Quiet",
     content: `
       <p>Happy birthday, Xander.</p>
+      <p>I'm sorry for the times I went quiet.</p>
+      <p>Sometimes I just need to breathe.</p>
+      <p>Sometimes my thoughts get too loud and I don't know how to explain what I'm feeling.</p>
+      <p>It doesn't always mean I'm angry.</p>
+      <p>It doesn't always mean I don't care.</p>
+      <p>Sometimes I just need a moment to understand myself.</p>
+      <p>I hope you can be patient with me while I learn how to communicate better.</p>
+    `
+  },
       <p>Hi.</p>
       <p>I'm sorry.</p>
       <p>I fell asleep that time and kagigising ko lang.</p>
@@ -464,7 +533,16 @@ const letters = {
   18: {
     title: "Us, Doing Our Own Things Together",
     content: `
-      <p>Happy birthday, Xander.</p>
+      <p>Happy birthday, Xanderbaby.</p>
+      <p>I think one of my favorite things about us is that we don't always have to be doing the same thing.</p>
+      <p>You can do your own thing.</p>
+      <p>I can do mine.</p>
+      <p>And somehow, we're still together.</p>
+      <p>Maybe that's what comfort feels like.</p>
+      <p>Being close without having to constantly fill the silence.</p>
+      <p>I really like that kind of closeness with you.</p>
+    `
+  },
       <p>I think some of my favorite memories of us aren't even big moments.</p>
       <p>They're the stupid ordinary ones.</p>
       <p>Those nights when we're both on the phone.</p>
@@ -503,6 +581,16 @@ const letters = {
     title: "I Don't Know What We'll Become",
     content: `
       <p>Happy birthday, Xander.</p>
+      <p>I don't know exactly what we'll become.</p>
+      <p>I don't know what the future looks like.</p>
+      <p>And honestly, I don't want to pretend that I know.</p>
+      <p>All I know is that I like what we have right now.</p>
+      <p>I like knowing you.</p>
+      <p>I like growing closer to you.</p>
+      <p>So whatever happens, I hope we continue choosing honesty, patience, and kindness.</p>
+      <p>For now, I'm just grateful you're here.</p>
+    `
+  },
       <p>I don't know what we're going to become.</p>
       <p>And honestly, that scares me.</p>
       <p>We're still young.</p>
@@ -533,7 +621,7 @@ const letters = {
     `
   },
   20: {
-    title: "Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly.",
+    title: "Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly.",",
     content: `
       <p>Happy birthday, Xander.</p>
       <p>Okay.</p>
@@ -637,4 +725,127 @@ function openL(i){
   read.style.display='block';
   read.innerHTML=`<article class="letter"><button onclick="showList()">← All letters</button><h2>${L[i][0]}</h2><div style="color:#68736b;font:13px system-ui">${L[i][1]}</div><div>${L[i][2]}</div><div class="nav"><button onclick="openL(${(i+L.length-1)%L.length})">← Previous</button><button onclick="openL(${(i+1)%L.length})">Next →</button></div></article>`;
   scrollTo(0,0);
+}
+
+      <p>Twenty letters later, I still don't think I've said everything I want to say.</p>
+      <p>But maybe that's okay.</p>
+      <p>Some feelings are too big to fit perfectly into words.</p>
+      <p>I just want you to know that meeting you became something I didn't expect.</p>
+      <p>You became someone I look forward to.</p>
+      <p>Someone I care about.</p>
+      <p>Someone whose presence means more to me than I expected it to.</p>
+      <p>Thank you for letting me know you.</p>
+      <p>Thank you for staying.</p>
+      <p>Thank you for being you.</p>
+      <p>Happy birthday, baby.</p>
+      <p>I hope this little collection reminds you how loved you are.</p>
+      <p>— yours ♡</p>
+    `
+  }
+
+};
+
+
+// ===============================
+// OPEN COLLECTION
+// ===============================
+
+function openLetters() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("letters").style.display = "block";
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+
+// ===============================
+// OPEN ONE LETTER
+// ===============================
+
+function openLetter(number) {
+
+  const letter = letters[number];
+
+  if (!letter) {
+    console.error("Letter " + number + " does not exist.");
+    return;
+  }
+
+  document.getElementById("letters").style.display = "none";
+  document.getElementById("reader").style.display = "block";
+
+  document.getElementById("letterNumber").textContent =
+    "LETTER " + String(number).padStart(2, "0");
+
+  document.getElementById("letterTitle").textContent =
+    letter.title;
+
+  document.getElementById("letterContent").innerHTML =
+    letter.content;
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+
+// ===============================
+// CLOSE LETTER
+// ===============================
+
+function closeLetter() {
+
+  document.getElementById("reader").style.display = "none";
+  document.getElementById("letters").style.display = "block";
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+
+// ===============================
+// NEXT LETTER
+// ===============================
+
+function nextLetter() {
+
+  const currentNumber = getCurrentLetterNumber();
+
+  if (currentNumber < 20) {
+    openLetter(currentNumber + 1);
+  }
+
+}
+
+
+// ===============================
+// PREVIOUS LETTER
+// ===============================
+
+function previousLetter() {
+
+  const currentNumber = getCurrentLetterNumber();
+
+  if (currentNumber > 1) {
+    openLetter(currentNumber - 1);
+  }
+
+}
+
+
+// ===============================
+// GET CURRENT LETTER NUMBER
+// ===============================
+
+function getCurrentLetterNumber() {
+
+  const text = document.getElementById("letterNumber").textContent;
+
+  return parseInt(text.replace("LETTER ", ""));
 }
