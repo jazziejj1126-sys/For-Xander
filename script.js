@@ -31,22 +31,22 @@ const letters = {
       <p>Happy birthday, baby.</p>
       <p>I still think about how random the night we actually started talking was.</p>
       <p>Sept. 4.</p>
-      <p>My friend wanted to go live on TikTok, CJ joined because it was his birthday, people were drinking, and somehow you were there because you're his cousin.</p>
+      <p>My friend wanted to go live on TikTok, CJ joined, people were drinking, and somehow you were there.</p>
       <p>That's it.</p>
       <p>That's literally how this started.</p>
       <p>I didn't know that night would become something I'd remember this much.</p>
-      <p>Then I got to talk to you on live. After I ended it, CJ was encouraging us toward each other, telling me to follow you, giving me your Instagram, and then there was that call where you were shy.</p>
+      <p>Then I got to talk to you. CJ was encouraging us toward each other, telling me to follow you, giving me your Instagram, and then somewhere in all that chaos, i had a familiar feeling coming back.</p>
       <p>And then somehow...</p>
       <p>we just kept talking.</p>
       <p>Until morning.</p>
       <p>I remember thinking you're actually so charming. You're funny, witty, articulate, and your vocabulary is insane. HAHAHA. I was genuinely intimidated by you.</p>
       <p>Parang, “Okay... bakit ang lawak ng pag-iisip nito?”</p>
-      <p>And I think that was one of the first things that really attracted me to you—not just your face, but your mind.</p>
+      <p>You were clarifying the things CJ had told me, and while you were talking, i remember thinking, "ahh, hanggang admiration na lang talaga." There was something about the way you talked, the way you express your thoughts, the way you constructed your sentences, and specially the way your mind worked. i really love that about you, but at the same time, it made me think, "tapos ako, ganito lang?" i couldn't understand what someone like you could possibly see in someone like me.</p>
       <p>You had this way of talking that made me want to keep listening.</p>
       <p>I didn't know what was going to happen after that night.</p>
       <p>Honestly, I probably should've just thought, “That was fun.”</p>
       <p>But then Sept. 5 came.</p>
-      <p>And we started talking.</p>
+      <p>We kept talking. Through the night, until dawn, until morning.</p>
       <p>And then suddenly you're here, in these letters.</p>
       <p>It's funny how one random night can quietly change the direction of things.</p>
       <p>I don't think either of us knew what we were starting.</p>
@@ -56,7 +56,6 @@ const letters = {
   3: {
     title: "I Think I Got Attached Too Fast",
     content: `
-      <p>Happy birthday, Xander.</p>
       <p>Okay, this one is embarrassing.</p>
       <p>I think I got attached too fast.</p>
       <p>Like... <i>too</i> fast.</p>
@@ -79,7 +78,7 @@ const letters = {
       <p>And I know I can't control whether people stay.</p>
       <p>So sometimes I get scared that time will eventually take you away from me.</p>
       <p>But I'm trying not to live in the ending before we've even had the chance to live in the beginning.</p>
-      <p>So for now, happy birthday.</p>
+
       <p>I'm here.</p>
       <p>You're here.</p>
       <p>And I'm really happy that you're here.</p>
@@ -89,7 +88,7 @@ const letters = {
   4: {
     title: "The Things I Notice About You",
     content: `
-      <p>Happy birthday, baby.</p>
+
       <p>I don't think I tell you enough how much I admire you.</p>
       <p>And no, I'm not talking about your looks.</p>
       <p>Obviously you're pretty. You're attractive. I know that. HAHAHA. But honestly, I hope pretty becomes one of the least interesting things you know I notice about you.</p>
@@ -99,7 +98,7 @@ const letters = {
       <p>I notice how careful you are with your words.</p>
       <p>You're gentle in ways I don't think you always realize.</p>
       <p>I like your soft side.</p>
-      <p>I like the feminine qualities in you. I like that you don't seem scared to have them. I like that you can be empathetic and still have such a strong personality.</p>
+      <p>I like the feminine qualities in you. I like that you don't seem scared to have them. I like that you can be an empath and still have such a strong personality.</p>
       <p>I admire how you think.</p>
       <p>I admire how you communicate.</p>
       <p>And I admire that you have your own opinions and your own way of looking at things.</p>
@@ -118,7 +117,7 @@ const letters = {
   5: {
     title: "Do You Know How Attractive Your Mind Is?",
     content: `
-      <p>Happy birthday, Xander.</p>
+
       <p>I remember telling you that I want to be the woman you admire, not just the woman you're attracted to.</p>
       <p>I meant that.</p>
       <p>I don't want you to look at me and only think I'm pretty.</p>
@@ -145,7 +144,7 @@ const letters = {
   6: {
     title: "The Quiet Calls",
     content: `
-      <p>Happy birthday, baby.</p>
+
       <p>I don't think you understand how much I love our quiet calls.</p>
       <p>Actually, sometimes I think we don't even have to talk.</p>
       <p>There are calls where I'm muted and I'm just listening.</p>
@@ -176,7 +175,7 @@ const letters = {
   7: {
     title: "You Didn't Create My Spark",
     content: `
-      <p>Happy birthday, Xander.</p>
+
       <p>This is probably one of the biggest things I want you to know.</p>
       <p><strong>You didn't create my spark. You reminded me that it was still there.</strong></p>
       <p>Before you, I had been so unmotivated.</p>
@@ -205,7 +204,7 @@ const letters = {
   8: {
     title: "Are You Out of My League?",
     content: `
-      <p>Happy birthday, Xander.</p>
+
       <p>I'm going to be honest.</p>
       <p>Sometimes I think you're out of my league.</p>
       <p>Not because you're perfect.</p>
@@ -218,7 +217,7 @@ const letters = {
       <p>And I hate admitting that because I don't want to feel like I'm beneath you.</p>
       <p>I don't want our relationship to become some comparison of who's smarter or who's more accomplished.</p>
       <p>But sometimes my brain does that anyway.</p>
-      <p>Especially because you told me you knew I was smart back in Grade 11.</p>
+      <p>Especially because you thought i was "that" smart.</p>
       <p>And then when I failed that quiz because I didn't review, your words about knowing I could do more hit me harder than I expected.</p>
       <p>Not because you were wrong.</p>
       <p>But because I already knew I wasn't giving myself what I used to.</p>
@@ -238,7 +237,7 @@ const letters = {
   9: {
     title: "Do You Like Me as a Whole?",
     content: `
-      <p>Happy birthday, baby.</p>
+
       <p>When you asked me if I really like you as a whole, I don't think you realized how much that question stayed with me.</p>
       <p>Because the funny thing is...</p>
       <p>while you're wondering if I like you enough, I'm in my diary wondering if <strong>I'm good enough for you.</strong></p>
@@ -270,32 +269,25 @@ const letters = {
   10: {
     title: "We Were Both Scared of the Same Thing",
     content: `
-      <p>Happy birthday, Xander.</p>
+
       <p>I still think it's funny how we were both scared of the same thing without realizing it.</p>
-      <p>You were scared to tell me about your three-year TESDA program because you thought I might get turned off after I told you I was in college.</p>
-      <p>And I understood that fear more than you probably know.</p>
-      <p>Because I've also felt ashamed around someone I liked.</p>
-      <p>I've also thought, “What if they know this about me and suddenly they see me differently?”</p>
-      <p>And there I was, thinking you might reject me once you knew the real me.</p>
-      <p>Meanwhile, you were thinking the exact same thing.</p>
-      <p>It's almost funny how we were both standing on opposite sides of the same fear, wondering if the other person would still choose us once the things we were hiding became visible.</p>
+      <p>it turns out we were overthinking the same thing all along. i was so afraid that if you got to know the real me, everything i've been hesitant to share, the things that i'm insecure about, the parts of myself i don't always know how to explain, that you'd eventually realize i wasn't enough for you. then you were also afraid of the same thing, you were afraid that if i got to know the real you, i might reject you. it's almost funny how we were both standing on opposite sides of the same fear, each wondering if the other would still choose us when the parts we feared might shift their gays began to reveal themselves.</p>
+      <p>i kept thinking there was something about you i wouldn't be able to live up to.</p>
+      <p>you are wondering if there was something about yourself that would make me leave. and somehow beneath all the overthinking, we were already choosing to stay.</p>
+      <p>maybe this is what getting to know someone really is, not immediately showing each other the perfect versions, but slowly letting the walls down and discovering that the person underneath them is still someone you want to know.</p>
+      <p>i don't know what we will become yet.</p>
       <p>That's probably one of the things I like most about what happened between us.</p>
       <p>We both realized we're human.</p>
       <p>We both have things we're insecure about.</p>
       <p>We both have things we don't immediately know how to say.</p>
-      <p>And maybe knowing someone isn't about revealing everything in one dramatic confession.</p>
-      <p>Maybe it's just slowly saying:</p>
-      <p><i>“Okay. Here's another part of me.”</i></p>
-      <p>And waiting to see if the other person stays.</p>
-      <p>So far, you stayed.</p>
-      <p>And I hope I have made you feel like you can stay too.</p>
+      
+      <p>i wasn't the only one afraid of being rejected for being myself. and somehow, knowing that makes me feel a little less afraid to let you see me.</p>
     `
   },
 
 11: {
     title: "There Are Things About Me I Still Don't Know How to Tell You",
     content: `
-      <p>Happy birthday, baby.</p>
       <p>You have told me things about yourself that you were ashamed of.</p>
       <p>And I appreciate that more than I think I can explain.</p>
       <p>Because I know how hard it is to let someone see the parts of you that you're not proud of.</p>
@@ -320,7 +312,6 @@ const letters = {
   12: {
     title: "The Girl Before You",
     content: `
-      <p>Happy birthday, Xander.</p>
       <p>There was a girl before you who didn't know how to choose herself.</p>
       <p>She accepted being someone's second option.</p>
       <p>She waited.</p>
@@ -351,7 +342,7 @@ const letters = {
   13: {
     title: "When You Go Quiet",
     content: `
-      <p>Happy birthday, baby.</p>
+  
       <p>I worry when you disappear for hours.</p>
       <p>Sometimes I'll check if you're online.</p>
       <p>Then I'll check again.</p>
@@ -381,7 +372,7 @@ const letters = {
   14: {
     title: "I Can't Carry Everything For You",
     content: `
-      <p>Happy birthday, baby.</p>
+   
       <p>I want to be someone you can lean on, but I also know I can't carry everything for you.</p>
       <p>I can listen.</p>
       <p>I can stay.</p>
@@ -414,8 +405,8 @@ const letters = {
   15: {
     title: "Please Don't Be Mean to Yourself Because of Me",
     content: `
-      <p>Happy birthday, baby.</p>
-      <p>Please don't be too hard on yourself because of me.</p>
+
+      <p>Please don't be too hard on yourself.</p>
       <p>You don't have to be perfect for me.</p>
       <p>You don't have to constantly prove that you're good enough.</p>
       <p>You don't have to become someone else just because you're scared I'll leave.</p>
@@ -446,7 +437,6 @@ const letters = {
   16: {
     title: "The Quiz I Didn't Study For",
     content: `
-      <p>Happy birthday, Xander.</p>
       <p>There was a quiz I didn't study for.</p>
       <p>And when I saw my result, I was disappointed in myself.</p>
       <p>Not just because I failed.</p>
@@ -479,7 +469,7 @@ const letters = {
   17: {
     title: "Sorry I Went Quiet",
     content: `
-      <p>Happy birthday, baby.</p>
+
       <p>I'm sorry I went quiet.</p>
       <p>Sometimes I just need to breathe.</p>
       <p>My thoughts get loud and I don't know how to explain everything while I'm feeling it.</p>
@@ -514,7 +504,7 @@ const letters = {
   18: {
     title: "Us, Doing Our Own Things Together",
     content: `
-      <p>Happy birthday, Xander.</p>
+
       <p>One of my favorite things about us is that we don't always have to be doing the same thing to feel together.</p>
       <p>You can be doing your own agenda.</p>
       <p>I can be studying.</p>
@@ -546,7 +536,6 @@ const letters = {
   19: {
     title: "I Don't Know What We'll Become",
     content: `
-      <p>Happy birthday, baby.</p>
       <p>I don't know what we'll become.</p>
       <p>And honestly, that scares me a little.</p>
       <p>We're still young.</p>
@@ -578,7 +567,7 @@ const letters = {
   20: {
     title: "Okay, It's Your Birthday. Here's Everything I Couldn't Say Properly.",
     content: `
-      <p>Happy birthday, baby.</p>
+      <p>Happy birthday, happy birthday, my loveee!.</p>
       <p>This is the last one.</p>
       <p>Twenty letters.</p>
       <p>Twenty different pieces of me that I probably wouldn't know how to say out loud.</p>
@@ -642,8 +631,8 @@ const letters = {
       <p>But because maybe some things are better lived than written.</p>
       <p>This happened.</p>
       <p>And I'm really glad it did.</p>
-      <p>Happy birthday, baby.</p>
-      <p>— Jazz</p>
+      <p>Happy birthday, mahal ko.</p>
+      <p>— Jazzlyn</p>
     `
   }
 
